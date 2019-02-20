@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "2e2c1854-6591-436a-a305-5a1c27aab4ac",
+            "Value": {
+                "id": "cc6c0db1-15aa-4e6e-b5ad-c094ba46904a",
+                "resourcePath": "sprites\\S_MainCharacter\\S_MainCharacter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "37e0f32e-6dc5-4638-b2b0-3ac56a3cf070",
             "Value": {
                 "id": "1891ad5f-5184-438a-b99a-11125dadc814",
