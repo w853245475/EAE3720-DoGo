@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "f44b412e-0213-4a59-9719-69b5a6dca591",
+            "Value": {
+                "id": "dca03b94-3be9-4873-8247-2a32644eb911",
+                "resourcePath": "rooms\\Casino_Room\\Casino_Room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "fde37365-74c4-45b6-8833-1fb442d58696",
             "Value": {
                 "id": "a2c7db5f-ef5f-4f5a-8045-9eccecf727d9",
