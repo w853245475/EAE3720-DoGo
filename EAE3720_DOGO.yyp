@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1a69b368-91d7-4e5a-bf29-8e8378255967",
+            "Value": {
+                "id": "20aa48f7-ffd1-4c86-b3de-72f680dc5a7c",
+                "resourcePath": "objects\\O_CasinoManager\\O_CasinoManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2e2c1854-6591-436a-a305-5a1c27aab4ac",
             "Value": {
                 "id": "cc6c0db1-15aa-4e6e-b5ad-c094ba46904a",
