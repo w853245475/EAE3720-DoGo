@@ -1,0 +1,43 @@
+Converting GML script: ${project_dir}\objects\obj_control\Create_0.gml
+Converted description /// @description Settings
+
+Converting GML script: ${project_dir}\objects\obj_control\Alarm_0.gml
+Converted description /// @description Used for our alarm purposes
+
+Converting GML script: ${project_dir}\objects\obj_control\Step_0.gml
+Converted description /// @description Control of the game
+
+Converting GML script: ${project_dir}\objects\obj_control\Draw_0.gml
+Converted description /// @description Draw items
+
+Converting GML script: ${project_dir}\objects\obj_button\Create_0.gml
+Converted description /// @description Settings
+
+Converting GML script: ${project_dir}\objects\obj_button\Alarm_0.gml
+Converted description /// @description Place self at the correct location
+
+Converting GML script: ${project_dir}\objects\obj_button\Step_0.gml
+Converted description /// @description Meat and potatoes
+
+Converting GML script: ${project_dir}\objects\obj_button\Draw_0.gml
+Converted description /// @description Draw items
+
+Converting GML script: ${project_dir}\objects\obj_exclaim\Create_0.gml
+Converted description /// @description Settings
+
+Converting GML script: ${project_dir}\objects\obj_exclaim\Alarm_0.gml
+Converted description /// @description b_fade
+
+Converting GML script: ${project_dir}\objects\obj_exclaim\Step_0.gml
+Converted description /// @description Meat and potatoes
+
+Converting GML script: ${project_dir}\objects\obj_youLose\Create_0.gml
+Converted description /// @description Settings
+
+Converting GML script: ${project_dir}\objects\obj_youLose\Alarm_0.gml
+Converted description /// @description b_fade
+
+Converting GML script: ${project_dir}\objects\obj_youLose\Step_0.gml
+Converted description /// @description Meat and potatoes
+
+Updated compatibility script '__global_object_depths.gml'

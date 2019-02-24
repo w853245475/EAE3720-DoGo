@@ -1,0 +1,5 @@
+Converting GML script: ${project_dir}\objects\obj_card\Create_0.gml
+Converted description /// @description Settings
+
+Converting GML script: ${project_dir}\objects\obj_card\Step_0.gml
+Converted description /// @description Meat and potatoes
