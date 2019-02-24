@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "00ca631c-1962-4c90-972b-e501368ffe47",
+            "Value": {
+                "id": "b3a29886-26a4-4ac1-9052-ffcbd4b3b837",
+                "resourcePath": "sprites\\sprite3\\sprite3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13bb1b35-cb5a-480d-9f62-223fd09cb6c3",
             "Value": {
                 "id": "156b1a99-fda4-45e9-baef-aa54410dae9e",
@@ -44,14 +52,6 @@
                 "id": "7c4a1957-cfb5-4f68-98c6-7bd47f3960ce",
                 "resourcePath": "views\\148a0775-3787-4045-b6a4-f67279ab9df5.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "1a69b368-91d7-4e5a-bf29-8e8378255967",
-            "Value": {
-                "id": "20aa48f7-ffd1-4c86-b3de-72f680dc5a7c",
-                "resourcePath": "objects\\O_CasinoManager\\O_CasinoManager.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -196,6 +196,14 @@
                 "id": "fe4b1b85-2cd6-4e0f-be60-e7a26d7db15a",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d283b777-5d48-4b19-914b-fc9e676306a6",
+            "Value": {
+                "id": "feca64d1-4947-4a95-bb2c-a91d557d7751",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
