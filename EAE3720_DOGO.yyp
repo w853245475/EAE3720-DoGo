@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "34f1d810-8e1a-487f-a53d-24a6082d5d9d",
+            "Value": {
+                "id": "bbd44c30-6279-407c-bd4b-5bf8fc5d6d0f",
+                "resourcePath": "objects\\O_Door\\O_Door.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "37e0f32e-6dc5-4638-b2b0-3ac56a3cf070",
             "Value": {
                 "id": "1891ad5f-5184-438a-b99a-11125dadc814",
@@ -148,14 +156,6 @@
                 "id": "3e895d04-2a3d-4ace-8acf-a26d3a218991",
                 "resourcePath": "views\\754c25bf-e427-44a9-bdcc-eafd56e102b6.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7e09d0cf-2836-40f7-80b6-ad52636b49fb",
-            "Value": {
-                "id": "6a386fd8-e48a-46c9-876c-d57f572c29fe",
-                "resourcePath": "extensions\\How_Did_They_Do_That_BlackJack\\How_Did_They_Do_That_BlackJack.yy",
-                "resourceType": "GMExtension"
             }
         },
         {
@@ -356,6 +356,14 @@
                 "id": "9d62b30d-1bae-4bb0-82ff-57388224dea3",
                 "resourcePath": "views\\d785a53e-41d1-4401-a6ae-04a2eb3be8c4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d8926e35-7c0f-4a3e-92d8-e99e7d7c9d79",
+            "Value": {
+                "id": "f49b0423-e830-4f9a-afee-a18621d09fd6",
+                "resourcePath": "sprites\\S_Door\\S_Door.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
