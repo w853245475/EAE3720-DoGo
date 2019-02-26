@@ -1,4 +1,4 @@
 /// @description b_fade
 
-b_fade = true;
+//b_fade = true;
 

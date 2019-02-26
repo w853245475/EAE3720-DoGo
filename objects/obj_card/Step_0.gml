@@ -3,12 +3,12 @@
 //If speed is bigger than 0, flip the card till it comes to a stop (only if he is team 0 tho)
 if (int_team == 0){
     if (speed > 0){
-        image_angle -= 2.75;
+        //image_angle -= 2.75;
         speed -= .155;
     }else{
         speed = 0;
-        y = room_height - 100;
-        image_angle = 0;
+        y = room_height - 244;
+        //image_angle = 0;
     }
 }
 
