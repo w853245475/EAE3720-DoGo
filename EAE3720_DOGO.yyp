@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "05339333-e1fb-4304-a5d2-9a1b1fa6bccb",
+            "Value": {
+                "id": "abea7be5-8ff5-4b66-a05e-09a51aa1ade9",
+                "resourcePath": "sprites\\S_WallBlocker\\S_WallBlocker.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "13bb1b35-cb5a-480d-9f62-223fd09cb6c3",
             "Value": {
                 "id": "156b1a99-fda4-45e9-baef-aa54410dae9e",
@@ -364,6 +372,14 @@
                 "id": "f49b0423-e830-4f9a-afee-a18621d09fd6",
                 "resourcePath": "sprites\\S_Door\\S_Door.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da07ba6c-92df-41c2-adc2-88209dd5f7b0",
+            "Value": {
+                "id": "ff000282-5aa3-446e-834e-8aeac4631144",
+                "resourcePath": "objects\\O_WallBlocker\\O_WallBlocker.yy",
+                "resourceType": "GMObject"
             }
         },
         {

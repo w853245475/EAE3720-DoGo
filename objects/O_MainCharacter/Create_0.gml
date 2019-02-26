@@ -1,2 +1,2 @@
 horizontalSpeed = 4;
-friction = 0.1;
+friction = 1;
