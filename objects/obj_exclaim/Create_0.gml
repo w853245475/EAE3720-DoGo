@@ -4,7 +4,7 @@
 image_speed = 0;
 
 //Tilt upward
-image_angle = 45;
+//image_angle = 45;
 
 //Make this thing huge
 image_xscale = 5;

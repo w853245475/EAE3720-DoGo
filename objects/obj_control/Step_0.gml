@@ -1,9 +1,8 @@
 /// @description Control of the game
-
 //Analyze current state of the game
 switch(int_state){
     //Beginning of the round
-    case 0:
+    case 0:	
     switch(int_subState){
         //Take poker chips for this round (We win 20 chips if we win the round), but bet 10 every round
         case 0:
