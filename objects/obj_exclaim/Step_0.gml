@@ -7,10 +7,10 @@ if (image_xscale > 1){
 }
 
 //Fade away
-//if (b_fade){
-//    if (image_alpha > 0){
-//        image_alpha -= .025;
-//    }else{
-//        instance_destroy();
-//    }
-//}
+if (b_fade){
+    if (image_alpha > 0){
+        image_alpha = 0;
+    }else{
+        instance_destroy();
+    }
+}

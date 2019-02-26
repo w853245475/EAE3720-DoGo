@@ -11,7 +11,7 @@ image_xscale = 5;
 image_yscale = 5;
 
 //Fade away
-//b_fade = false;
+b_fade = false;
 
 //Fade away
-//alarm[0] = 60;
+alarm[0] = 60;
