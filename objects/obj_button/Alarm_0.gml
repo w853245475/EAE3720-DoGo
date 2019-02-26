@@ -5,7 +5,7 @@ switch(int_type){
     case 0:
     image_index = 0;
     x = room_width - sprite_width;
-    y = 0;
+    y = 100;
     int_startX = x;//We need these variables to move the button slightly when the player presses it
     int_startY = y;
     break;
@@ -13,7 +13,7 @@ switch(int_type){
     case 1:
     image_index = 1;
     x = room_width - sprite_width;
-    y = sprite_height;
+    y = sprite_height + 100;
     int_startX = x;
     int_startY = y;
     break;
