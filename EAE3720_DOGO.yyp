@@ -111,14 +111,6 @@
             }
         },
         {
-            "Key": "43e86178-1398-4435-994b-f2b3d070e5c5",
-            "Value": {
-                "id": "7b6b9d1b-8cb2-4e91-811b-d9a6ced49b72",
-                "resourcePath": "notes\\compatibility_report_240219_1138143814.yy",
-                "resourceType": "GMNotes"
-            }
-        },
-        {
             "Key": "54c394c3-1fe7-4213-9aa5-048cfdd3e83c",
             "Value": {
                 "id": "3722c09e-e43c-40a8-ae03-da2c35e7261e",
@@ -300,14 +292,6 @@
                 "id": "0da44d6a-3540-4915-8345-292fc6fe2efe",
                 "resourcePath": "scripts\\@object_get_depth\\object_get_depth.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "c9b50a8d-0d09-44f8-ac73-a244caada32c",
-            "Value": {
-                "id": "64ab99dc-3019-4503-904f-84566a4914fd",
-                "resourcePath": "notes\\compatibility_report_240219_1129112911.yy",
-                "resourceType": "GMNotes"
             }
         },
         {
