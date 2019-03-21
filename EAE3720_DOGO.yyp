@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "aa8d0837-088b-489f-ae83-e47e15bdff00",
+            "Value": {
+                "id": "dc5cff19-50cb-4a3a-b8a2-fbbd5d6b1118",
+                "resourcePath": "objects\\O_Camera\\O_Camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "acdbf062-6bc3-4188-968a-9bf81f87967f",
             "Value": {
                 "id": "b074aa94-c59c-49f3-815a-bcb66e9053e5",
@@ -371,6 +379,14 @@
             "Value": {
                 "id": "f76f32b0-cf6e-4fb1-9ea3-562576dd164f",
                 "resourcePath": "objects\\obj_control\\obj_control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e866e9ac-79a3-42eb-89f4-a4a8ed3c489c",
+            "Value": {
+                "id": "d03fa759-d44f-41fd-8c04-54ec3c575e93",
+                "resourcePath": "objects\\O_GameControl\\O_GameControl.yy",
                 "resourceType": "GMObject"
             }
         },
