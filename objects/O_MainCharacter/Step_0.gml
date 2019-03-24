@@ -13,6 +13,8 @@ inputDown = keyboard_check(vk_down);
 
 
 
+
+
 if(inputLeft) || keyboard_check(ord("A")){
 	
 	if (place_meeting(x-horizontalSpeed, y,  O_WallBlocker))
