@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "286243a5-b29c-4452-b720-24b592f7dff3",
+            "Value": {
+                "id": "db5619e5-c208-4a7e-9afa-b2857766d522",
+                "resourcePath": "fonts\\F_Text\\F_Text.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "2b8fb9b3-0491-46d1-b0fa-a3b43df5104c",
             "Value": {
                 "id": "07b8a250-f511-4666-a7a4-bfb22df09748",
@@ -108,6 +116,14 @@
                 "id": "1891ad5f-5184-438a-b99a-11125dadc814",
                 "resourcePath": "rooms\\MainMenu\\MainMenu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "3c2d5e92-a7be-4021-bb03-f8d7fead275b",
+            "Value": {
+                "id": "f4fd80ae-813b-4509-984c-f4931a9659d3",
+                "resourcePath": "objects\\O_TextBox\\O_TextBox.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -156,6 +172,14 @@
                 "id": "3e895d04-2a3d-4ace-8acf-a26d3a218991",
                 "resourcePath": "views\\754c25bf-e427-44a9-bdcc-eafd56e102b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "79c73056-7bc6-4592-9550-b3f0452e5c35",
+            "Value": {
+                "id": "6b8032de-c24f-466c-ad08-f3a663f1ab79",
+                "resourcePath": "sprites\\S_TextBox\\S_TextBox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -228,6 +252,14 @@
                 "id": "754ff339-f559-4a79-95b3-861fa3aaec0f",
                 "resourcePath": "sprites\\spr_button\\spr_button.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a4246f2e-c3e0-4e17-8b27-b94197e86a51",
+            "Value": {
+                "id": "b3005eb0-3d23-489e-a788-44257ef904ee",
+                "resourcePath": "objects\\O_Wife\\O_Wife.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -372,6 +404,14 @@
                 "id": "ff000282-5aa3-446e-834e-8aeac4631144",
                 "resourcePath": "objects\\O_WallBlocker\\O_WallBlocker.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6dc7aa6-c991-435d-9172-efde01011820",
+            "Value": {
+                "id": "74702fe5-bf0b-463f-b7ab-4ef9cbf75f5c",
+                "resourcePath": "sprites\\S_Wife\\S_Wife.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

@@ -1,18 +1,28 @@
 {
-    "id": "da07ba6c-92df-41c2-adc2-88209dd5f7b0",
+    "id": "3c2d5e92-a7be-4021-bb03-f8d7fead275b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "O_WallBlocker",
+    "name": "O_TextBox",
     "eventList": [
         {
-            "id": "12d54a0a-351d-4b52-9f9f-46d70fe24e7a",
+            "id": "03261e08-a70d-48a3-b1bb-ba189afdf6dd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "da07ba6c-92df-41c2-adc2-88209dd5f7b0"
+            "eventtype": 8,
+            "m_owner": "3c2d5e92-a7be-4021-bb03-f8d7fead275b"
+        },
+        {
+            "id": "a49da34d-ca88-496d-8dc8-14c93d26912d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3c2d5e92-a7be-4021-bb03-f8d7fead275b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "05339333-e1fb-4304-a5d2-9a1b1fa6bccb",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -9,15 +9,10 @@ inputDown = keyboard_check(vk_down);
 
 
 
-
-
-
-
-
-
-if(inputLeft) || keyboard_check(ord("A")){
+if(inputLeft || keyboard_check(ord("A"))){
 	
-	if (place_meeting(x-horizontalSpeed, y,  O_WallBlocker))
+	if (place_meeting(x-horizontalSpeed, y,  O_WallBlocker) 
+	|| place_meeting(x-2, y,  O_Wife))
 	{
 		speed = 0;
 	}
@@ -31,7 +26,8 @@ if(inputLeft) || keyboard_check(ord("A")){
 }
 else if(inputRight) ||  keyboard_check(ord("D"))
 {
-	if (place_meeting(x+horizontalSpeed, y,  O_WallBlocker))
+	if (place_meeting(x+horizontalSpeed, y,  O_WallBlocker) 
+	|| place_meeting(x+2, y,  O_Wife))
 	{
 		speed = 0;
 	}
@@ -43,7 +39,8 @@ else if(inputRight) ||  keyboard_check(ord("D"))
 }
 else if(inputUp) ||  keyboard_check(ord("W"))
 {
-	if (place_meeting(x, y-horizontalSpeed, O_WallBlocker))
+	if (place_meeting(x, y-horizontalSpeed,  O_WallBlocker) 
+	|| place_meeting(x, y-2,  O_Wife))
 	{			
 		speed= 0;
 	}
@@ -57,7 +54,8 @@ else if(inputUp) ||  keyboard_check(ord("W"))
 }
 else if(inputDown) ||  keyboard_check(ord("S"))
 {
-	if (place_meeting(x, y+horizontalSpeed, O_WallBlocker))
+	if (place_meeting(x, y+horizontalSpeed,  O_WallBlocker) 
+	|| place_meeting(x, y+2,  O_Wife))
 	{			
 		speed= 0;
 	}
