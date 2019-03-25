@@ -98,7 +98,7 @@
             "Key": "2e2c1854-6591-436a-a305-5a1c27aab4ac",
             "Value": {
                 "id": "cc6c0db1-15aa-4e6e-b5ad-c094ba46904a",
-                "resourcePath": "sprites\\S_MainCharacter\\S_MainCharacter.yy",
+                "resourcePath": "sprites\\S_MainCharacter_Down\\S_MainCharacter_Down.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -332,6 +332,14 @@
                 "id": "0da44d6a-3540-4915-8345-292fc6fe2efe",
                 "resourcePath": "scripts\\@object_get_depth\\object_get_depth.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c7c1524b-004d-46f5-9111-cea468d2012b",
+            "Value": {
+                "id": "80adecfb-6351-4d2a-8704-8bb4c594f034",
+                "resourcePath": "sprites\\S_MainCharacter_Up\\S_MainCharacter_Up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
