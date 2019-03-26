@@ -1,7 +1,7 @@
-if(place_meeting(x+2, y+2, O_MainCharacter)
- ||place_meeting(x-2, y+2, O_MainCharacter)
- ||place_meeting(x+2, y-2, O_MainCharacter)
- ||place_meeting(x-2, y-2, O_MainCharacter))
+if(place_meeting(x+5, y+5, O_MainCharacter)
+ ||place_meeting(x-5, y+5, O_MainCharacter)
+ ||place_meeting(x+5, y-5, O_MainCharacter)
+ ||place_meeting(x-5, y-5, O_MainCharacter))
 {	
 	if(keyboard_check(vk_space))
 	{
