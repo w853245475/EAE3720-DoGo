@@ -24,7 +24,7 @@ switch (state)
 	
 	case "ROOM EXIT TRANSITION":
 	{
-		alpha -= 0.05;
+		alpha -= 0.01;
 		
 		
 		if (alpha <= 0)
