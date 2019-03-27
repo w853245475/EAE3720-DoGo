@@ -9,8 +9,7 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 		{
 			myTextbox = instance_create_layer(100, 500, "Text", O_TextBox);
 			myTextbox.text = myText;
-			
-			textCount++;
+			myTextbox.creator = self;
 		}
 		
 	}
