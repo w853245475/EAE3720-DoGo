@@ -2,7 +2,7 @@
     "id": "e866e9ac-79a3-42eb-89f4-a4a8ed3c489c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "O_GameControl",
+    "name": "O_Transition",
     "eventList": [
         {
             "id": "df3fa233-ac37-43c7-b122-49f40f086719",

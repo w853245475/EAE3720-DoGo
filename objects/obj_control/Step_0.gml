@@ -12,8 +12,10 @@ switch(int_state){
                 int_chips -= 10;//Take poker chips
                 int_subState ++;//Move onto next substate
             }else{
+				O_GameManager.Money = int_chips;
                 instance_create(room_width / 2, room_height / 2 + 15, obj_Finished);//Create the exclaimation 'You Lose!' in the center
                 instance_destroy();//Destroy self
+				
 				room_goto(1);
             }
         }

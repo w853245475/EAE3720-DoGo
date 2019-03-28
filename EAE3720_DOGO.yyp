@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1a4580af-5b02-4217-961e-93a64587aa80",
+            "Value": {
+                "id": "39305e11-071e-44ff-aa80-ee3a832c2a17",
+                "resourcePath": "objects\\O_DogDealer\\O_DogDealer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2630b369-6635-47af-bc65-9c1d11e1085a",
             "Value": {
                 "id": "7d6bc5fc-a699-42eb-8e1c-cfad4ad7219c",
@@ -204,6 +212,14 @@
                 "id": "6b8032de-c24f-466c-ad08-f3a663f1ab79",
                 "resourcePath": "sprites\\S_TextBox\\S_TextBox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7a9b7e54-ba53-41a8-88fb-a3d3e3366c31",
+            "Value": {
+                "id": "7f950962-31a9-4ac5-b568-acafcf7be195",
+                "resourcePath": "objects\\O_GameManager\\O_GameManager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -423,6 +439,14 @@
             }
         },
         {
+            "Key": "d450af52-44dc-4f74-acc1-96e818a3b574",
+            "Value": {
+                "id": "d14e923d-92d2-458d-8983-a97156cb7947",
+                "resourcePath": "sprites\\S_DogDealer\\S_DogDealer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d64f145d-9e7a-4b61-8d2d-5309c1b16950",
             "Value": {
                 "id": "1a0768cc-3311-476e-b98a-03cb97b84986",
@@ -498,7 +522,7 @@
             "Key": "e866e9ac-79a3-42eb-89f4-a4a8ed3c489c",
             "Value": {
                 "id": "d03fa759-d44f-41fd-8c04-54ec3c575e93",
-                "resourcePath": "objects\\O_GameControl\\O_GameControl.yy",
+                "resourcePath": "objects\\O_Transition\\O_Transition.yy",
                 "resourceType": "GMObject"
             }
         },
