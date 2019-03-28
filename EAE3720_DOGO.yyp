@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "9468ab69-9a08-4c23-843c-7b182d171eab",
+            "Value": {
+                "id": "55c977ae-1d06-493c-a218-525dfa42a9d0",
+                "resourcePath": "objects\\O_title\\O_title.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9614624f-a1e8-4b04-984c-50d7b3e6eb16",
             "Value": {
                 "id": "48f91a57-12e8-40fa-b37a-a6530bb07cf0",
@@ -396,6 +404,14 @@
                 "id": "ccc20d8a-fdb3-4861-9574-57e789a04db9",
                 "resourcePath": "objects\\O_StartGameButton\\O_StartGameButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c3e7f012-6ba8-42d5-926b-744710ea3f5f",
+            "Value": {
+                "id": "f5c62800-8b37-45c9-b408-abf45fb2f24d",
+                "resourcePath": "sprites\\S_Title\\S_Title.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
