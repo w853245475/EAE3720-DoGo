@@ -8,15 +8,17 @@ switch (state)
 		break;
 	}
 	
-	case "ROOM ENTER TRANSITION":
+	case "LEAVE ROOM TO GAMB":
 	{
-		alpha += 0.05;
+		alpha += 0.01;
 		
 		if (alpha >= 1)
 		{
 			//alpha = 0;
+			room_goto(2);
 			break;
 		}
+		break;
 		//draw_set_alpha(alpha);
 		
 
@@ -35,6 +37,21 @@ switch (state)
 
 		}
 		//draw_set_alpha(alpha);
+	}
+	
+	case "SLEEP":
+	{
+		if(sleep)
+		{
+			alpha += 0.01;
+			if (alpha >=1){
+				sleep = false;
+				O_GameManager.beforeGamb = true;
+				O_GameManager.dayCount ++ ;
+				state = "ROOM EXIT TRANSITION";	
+			}
+		}
+		break;
 	}
 	
 	
