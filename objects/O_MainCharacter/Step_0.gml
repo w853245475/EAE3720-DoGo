@@ -1,5 +1,15 @@
 /// @description Moves
 // You can write your code in this editor
+if(room != Living_Room)
+{
+	x = 320;
+	y = 640;
+	self.visible = 0;
+}
+
+else
+{
+self.visible = 1;
 
 
 inputLeft = keyboard_check(vk_left);
@@ -82,4 +92,5 @@ else if(inputDown) ||  keyboard_check(ord("S"))
 		y += horizontalSpeed;
 	}
 	//speed = horizontalSpeed; 
+}
 }
