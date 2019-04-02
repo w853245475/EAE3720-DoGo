@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "21f0ecfe-0254-42be-9f4d-e40352054b25",
+            "Value": {
+                "id": "ac269686-0f31-4879-8be2-8273a68f9cf5",
+                "resourcePath": "rooms\\Shop_Room\\Shop_Room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2630b369-6635-47af-bc65-9c1d11e1085a",
             "Value": {
                 "id": "7d6bc5fc-a699-42eb-8e1c-cfad4ad7219c",
