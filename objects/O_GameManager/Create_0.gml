@@ -1,4 +1,4 @@
-score = 20;
+score = 50;
 
 beforeGamb = true;
 dayCount = 1; 

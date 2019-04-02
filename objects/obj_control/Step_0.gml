@@ -33,7 +33,9 @@ switch(int_state){
                 instance_create(room_width / 2, room_height / 2 + 15, obj_Finished);//Create the exclaimation 'You Lose!' in the center
                 instance_destroy();//Destroy self
 				
-				room_goto(1);
+				//room_goto(Shop_Room);
+				
+				O_Transition.state = "CASINO TO SHOP";
             }
         }
         break;

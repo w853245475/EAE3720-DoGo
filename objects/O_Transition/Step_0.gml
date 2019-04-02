@@ -15,7 +15,7 @@ switch (state)
 		if (alpha >= 1)
 		{
 			//alpha = 0;
-			room_goto(2);
+			room_goto(Casino_Room);
 			break;
 		}
 		break;
@@ -36,6 +36,8 @@ switch (state)
 			break;
 
 		}
+		break;
+		
 		//draw_set_alpha(alpha);
 	}
 	
@@ -54,6 +56,17 @@ switch (state)
 		break;
 	}
 	
-	
+	case "CASINO TO SHOP":
+	{
+		alpha += 0.01;
+		
+		if (alpha >= 1)
+		{
+			//alpha = 0;
+			room_goto(Shop_Room);
+			break;
+		}
+		break;
+	}
 }
 	
