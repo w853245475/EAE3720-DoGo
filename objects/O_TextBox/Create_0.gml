@@ -17,3 +17,6 @@ hasOption = true;
 
 options[0] = "Agree";
 
+option1 = noone;
+
+option_out = false;
