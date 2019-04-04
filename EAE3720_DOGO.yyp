@@ -71,6 +71,22 @@
             }
         },
         {
+            "Key": "1a6a9b10-bc68-4b5b-828b-e54bffe4d3d2",
+            "Value": {
+                "id": "aef98cfb-b6a5-4edd-a19d-762478f4f678",
+                "resourcePath": "objects\\O_Slot1\\O_Slot1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "26633bb3-f03d-4dc5-9b9e-2455270e878a",
+            "Value": {
+                "id": "57cd64e5-414b-49e7-a5fd-832ac225fde8",
+                "resourcePath": "objects\\O_Slot3\\O_Slot3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2b8fb9b3-0491-46d1-b0fa-a3b43df5104c",
             "Value": {
                 "id": "07b8a250-f511-4666-a7a4-bfb22df09748",
@@ -84,6 +100,14 @@
                 "id": "cc6c0db1-15aa-4e6e-b5ad-c094ba46904a",
                 "resourcePath": "sprites\\S_MainCharacter\\S_MainCharacter.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32de01a0-9289-4ab7-a995-5dea3468809a",
+            "Value": {
+                "id": "b04d926b-34f7-414f-9009-ed85142631ae",
+                "resourcePath": "views\\32de01a0-9289-4ab7-a995-5dea3468809a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -108,6 +132,14 @@
                 "id": "7b6b9d1b-8cb2-4e91-811b-d9a6ced49b72",
                 "resourcePath": "notes\\compatibility_report_240219_1138143814.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "476c03ce-a7d3-49fb-a590-c0bd63e3df6a",
+            "Value": {
+                "id": "fa839eff-f39e-496d-9333-e78d825a690a",
+                "resourcePath": "views\\476c03ce-a7d3-49fb-a590-c0bd63e3df6a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -151,11 +183,27 @@
             }
         },
         {
+            "Key": "6c39c74b-eb6b-4740-9429-86c9f49c3e41",
+            "Value": {
+                "id": "88bcf62d-3f35-46b2-a4a5-6ef2d112399d",
+                "resourcePath": "objects\\O_Slot2\\O_Slot2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "754c25bf-e427-44a9-bdcc-eafd56e102b6",
             "Value": {
                 "id": "3e895d04-2a3d-4ace-8acf-a26d3a218991",
                 "resourcePath": "views\\754c25bf-e427-44a9-bdcc-eafd56e102b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7d5b4ea0-ed76-4fcd-b1cb-4747d2cb80bf",
+            "Value": {
+                "id": "033f1d50-498d-4a0a-87a6-e20a0f105c0a",
+                "resourcePath": "objects\\O_SlotParent\\O_SlotParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -172,6 +220,14 @@
                 "id": "9154802c-2d72-468f-b989-cf47fd44e95d",
                 "resourcePath": "objects\\obj_card\\obj_card.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "84ae08be-d70b-4f14-8046-cc4a0c24d6ed",
+            "Value": {
+                "id": "9a3be284-4148-4f8c-a0fe-9feddd77b19b",
+                "resourcePath": "views\\84ae08be-d70b-4f14-8046-cc4a0c24d6ed.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -231,6 +287,14 @@
             }
         },
         {
+            "Key": "a12168ed-00c5-406e-be12-1c22d4e87cca",
+            "Value": {
+                "id": "0b8b3e2a-c6fa-44f0-84c6-af2c158517e1",
+                "resourcePath": "objects\\O_Reward\\O_Reward.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "22271d06-a522-46a0-85a3-f5d238386dcd",
@@ -252,6 +316,22 @@
                 "id": "1306d0bb-4a3b-4eba-a67e-81adab44fca6",
                 "resourcePath": "views\\ae098f67-7e42-4508-9f01-29f9369ed059.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "af72f369-6840-477a-ab87-a2283d468eec",
+            "Value": {
+                "id": "0ac11804-1203-4aee-95f1-dbd1b1d20673",
+                "resourcePath": "views\\af72f369-6840-477a-ab87-a2283d468eec.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "afaa04a4-7d8d-4f20-8cda-81d98a0c9261",
+            "Value": {
+                "id": "731abf73-5217-4547-bcc8-4ea87ee52257",
+                "resourcePath": "objects\\O_SlotButton\\O_SlotButton.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -383,6 +463,14 @@
             }
         },
         {
+            "Key": "ec82c8e2-70c6-4f53-a983-da89d96b2462",
+            "Value": {
+                "id": "e2bb551a-b946-41ce-954c-d747b15f6d4d",
+                "resourcePath": "views\\ec82c8e2-70c6-4f53-a983-da89d96b2462.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "f0f2c082-c1b6-43c6-b071-fe6c4953d79c",
             "Value": {
                 "id": "6a42eed8-4b71-4f62-9eb7-939fc65c3102",
@@ -404,6 +492,22 @@
                 "id": "edae2417-3a2c-4d42-8825-141b9e6eb945",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f843c2b2-cfdb-41c8-966b-7e4d70f0df28",
+            "Value": {
+                "id": "8ee706cb-d798-4650-90b7-48fd2a6df769",
+                "resourcePath": "views\\f843c2b2-cfdb-41c8-966b-7e4d70f0df28.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fac8d317-1ffa-4639-af99-14998842a2d3",
+            "Value": {
+                "id": "f9e840ea-d2da-4284-87dd-b7539e987d58",
+                "resourcePath": "views\\fac8d317-1ffa-4639-af99-14998842a2d3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
