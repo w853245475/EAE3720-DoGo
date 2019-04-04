@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0a20bcb1-31f1-45d3-9bf4-41151b912131",
+            "Value": {
+                "id": "66940e59-175a-4d11-9a8b-2c07a486859b",
+                "resourcePath": "scripts\\create_menu_page\\create_menu_page.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0f8bf516-c90d-4539-9b0d-b3b1afc08a47",
             "Value": {
                 "id": "b3c158bd-5903-4f86-830c-4b508b00191b",
@@ -215,6 +223,14 @@
             }
         },
         {
+            "Key": "57407646-0b55-47e6-9952-8e29f7a4f0dc",
+            "Value": {
+                "id": "5c4c3df4-1a10-4093-a42c-2666c22443ae",
+                "resourcePath": "scripts\\exit_game\\exit_game.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "582349ab-e46c-4f5b-b6e0-23d0895a3429",
             "Value": {
                 "id": "38fabfa3-3912-431c-a24e-e9e276c078f3",
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "910c78a1-42ef-44af-9545-0c8e28619c7a",
+            "Value": {
+                "id": "783c635f-fa6a-4eea-ac31-f1350043c50c",
+                "resourcePath": "scripts\\change_resolution\\change_resolution.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "9112daff-6d1a-4e18-9241-6cdc0d688ed4",
             "Value": {
                 "id": "79fcef2d-0a75-447b-9428-8d00b3d6e4ef",
@@ -380,6 +404,14 @@
                 "id": "1a3fc896-e772-4469-ac35-fd491f922fe3",
                 "resourcePath": "sprites\\S_QuitGameButton\\S_QuitGameButton.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9abbb170-2b37-4a32-a47b-f3cbf3549a18",
+            "Value": {
+                "id": "29330a8d-e17f-4c5e-8196-73d78f55c07c",
+                "resourcePath": "scripts\\change_volume\\change_volume.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -559,6 +591,14 @@
             }
         },
         {
+            "Key": "ca79e7c3-d5e1-4a1c-bfe7-3bc028806d32",
+            "Value": {
+                "id": "d8d94ce2-0406-410b-949f-f5939ee1aa5c",
+                "resourcePath": "scripts\\change_window_mode\\change_window_mode.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "fe4b1b85-2cd6-4e0f-be60-e7a26d7db15a",
@@ -655,6 +695,14 @@
             }
         },
         {
+            "Key": "de18a8a9-1cc4-49e5-922a-3f78b27a6df2",
+            "Value": {
+                "id": "9d715a83-ab45-497d-8ace-a20a08b120e8",
+                "resourcePath": "scripts\\resume_game\\resume_game.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e6dc7aa6-c991-435d-9172-efde01011820",
             "Value": {
                 "id": "74702fe5-bf0b-463f-b7ab-4ef9cbf75f5c",
@@ -738,7 +786,13 @@
     "script_order": [
         "d64f145d-9e7a-4b61-8d2d-5309c1b16950",
         "c434772c-4f42-453b-8bf8-d030c804600c",
-        "ea7a4467-b4e1-4ace-9b56-9cf210f3dbf8"
+        "ea7a4467-b4e1-4ace-9b56-9cf210f3dbf8",
+        "0a20bcb1-31f1-45d3-9bf4-41151b912131",
+        "de18a8a9-1cc4-49e5-922a-3f78b27a6df2",
+        "57407646-0b55-47e6-9952-8e29f7a4f0dc",
+        "9abbb170-2b37-4a32-a47b-f3cbf3549a18",
+        "910c78a1-42ef-44af-9545-0c8e28619c7a",
+        "ca79e7c3-d5e1-4a1c-bfe7-3bc028806d32"
     ],
     "tutorial": ""
 }
