@@ -15,16 +15,23 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 			
 
 		}
+		
+		/*
 		else{
-			if(hasOption){
-				textLength = array_length_1d(myText);
-				if(myTextbox.page+1 == textLength)
-				{
-					option1 = instance_create_layer(300, 200, "Text", O_ShopItems);
-					option1.name = options[0];
+			if(instance_exists(myTextbox))
+			{
+			
+				if(hasOption){
+					textLength = array_length_1d(myText);
+					if(myTextbox.page+1 == textLength)
+					{
+						option1 = instance_create_layer(300, 200, "Text", O_ShopItems);
+						option1.name = options[0];
+					}
 				}
-			}	
+			}
 		}
+		*/
 		
 		
 	}

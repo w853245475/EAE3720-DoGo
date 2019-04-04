@@ -5,6 +5,7 @@ if mouse_x > x and mouse_x < x + sprite_width and mouse_y > y and mouse_y < y + 
    
    if (mouse_check_button(mb_left))
    {
+	   clicked = true;
 	   draw_sprite(S_ShopItems_Clicked, 0, x, y);
    }
    

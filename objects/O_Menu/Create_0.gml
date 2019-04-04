@@ -9,7 +9,7 @@ global.key_right = vk_right;
 global.key_up = vk_up;
 global.keu_down = vk_down;
 
-diaplay_set_gui_size(global.view_width, global.view_height);
+display_set_gui_size(global.view_width, global.view_height);
 
 enum menu_page{
 	main = 0,
@@ -26,6 +26,7 @@ enum menu_element_type{
 	input
 }
 
+/*
 ds_menu_main = create_menu_page(
 	["RESUME", menu_element_type.script_runner, resume_game],
 	["SETTINGS", menu_element_type.page_transfer, menu_page.settings],
