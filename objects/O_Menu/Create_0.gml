@@ -28,4 +28,24 @@ enum menu_element_type{
 
 ds_menu_main = create_menu_page(
 	["RESUME", menu_element_type.script_runner, resume_game],
+	["SETTINGS", menu_element_type.page_transfer, menu_page.settings],
+	["EXIT", menu_element_type.script_runner, exit_game],
+);
+
+ds_settings = create_menu_page(
+	["AUDIO", menu_element_type.script_runner, resume_game],
+	["GRAPHICS", menu_element_type.page_transfer, menu_page.settings],
+	["BACK", menu_element_type.script_runner, exit_game],
+);
+
+ds_menu_audio = create_menu_page(
+	["AUDIO",menu_element_type.page_transfer, menu_page.audio],
+	["GRAPHICS", menu_element_type.page_transfer, menu_page.settings],
+	["BACK", menu_element_type.page_transfer, menu_page.main],
+);
+
+ds_settings = create_menu_page(
+	["MASTER", menu_element_type.script_runner, resume_game],
+	["SOUNDS", menu_element_type.page_transfer, menu_page.settings],
+	["MUSIC", menu_element_type.script_runner, exit_game],
 );
