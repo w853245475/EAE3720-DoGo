@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "a12168ed-00c5-406e-be12-1c22d4e87cca",
+            "Value": {
+                "id": "d08792eb-3c40-4615-8abb-6357a80bb701",
+                "resourcePath": "objects\\O_Reward\\O_Reward.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a4246f2e-c3e0-4e17-8b27-b94197e86a51",
             "Value": {
                 "id": "b3005eb0-3d23-489e-a788-44257ef904ee",
