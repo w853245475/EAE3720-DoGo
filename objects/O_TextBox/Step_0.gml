@@ -6,8 +6,8 @@ if(keyboard_check_pressed(vk_space)){
 	{
 			if(hasOption)
 			{
-				option1 = instance_create_layer(300, 200, "Text", O_Options);
-				option1.name = options[0];
+				option1 = instance_create_layer(300, 200, "Text", O_OptionsWife);
+				option1.creator = self;
 				//option_out = true;
 
 			}

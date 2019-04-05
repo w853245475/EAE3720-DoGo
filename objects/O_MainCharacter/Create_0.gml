@@ -1,5 +1,5 @@
 
-
+talking = false;
 
 change_room = false;
 horizontalSpeed = 4;

@@ -23,7 +23,8 @@ if(speed == 0 && !(inputUp) && !(inputDown) && !(keyboard_check(ord("W"))) && !(
 	image_index = 0;
 }
 
-
+if(!talking)
+{
 if(inputLeft || keyboard_check(ord("A"))){
 	upDownMoving = false;
 	sprite_index =S_MainCharacter_Left;
@@ -92,5 +93,6 @@ else if(inputDown) ||  keyboard_check(ord("S"))
 		y += horizontalSpeed;
 	}
 	//speed = horizontalSpeed; 
+}
 }
 }
