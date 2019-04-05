@@ -1,6 +1,7 @@
 
 
 if(keyboard_check_pressed(vk_space)){
+	
 	if(page+1 == array_length_1d(text))
 	{
 			if(hasOption)
@@ -27,7 +28,9 @@ if(keyboard_check_pressed(vk_space)){
 	}
 	else
 	{
-
+		instance_destroy();	
+		//creator.myTextbox = noone;
+		creator.alarm[1] = 10;
 	}
 	
 }

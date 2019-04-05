@@ -10,4 +10,5 @@ hasOption = true;
 options[0] = "Agree";
 options[1] = "Disagree";
 
-
+//For not getting respawned immediatly
+count = 0;
