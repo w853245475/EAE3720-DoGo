@@ -6,6 +6,8 @@ myText[1] = "I will introduce the basic rules of the game to you. As the head of
 myText[2] = "But basically the only way you earns money is from gambling, (your family members don't know that!)";
 myText[3] = "Step Out The Door To Start Your Gambling, currently you can earn scores from playing balckjack game. Good luck!";
 
+myText2[0] = "Second Day!";
+	
 hasOption = true;
 options[0] = "Agree";
 options[1] = "Disagree";

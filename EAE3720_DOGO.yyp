@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "684f799d-3f70-4431-a072-3050b240d2ac",
+            "Value": {
+                "id": "59e29953-ba3b-41cb-b0b2-1b8bd0602a9c",
+                "resourcePath": "fonts\\F_MainMenu\\F_MainMenu.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "6aa8a70b-a09a-475f-882c-c75d3f8bcd93",
             "Value": {
                 "id": "0a78e344-6970-40cd-891c-220ef875e8a9",
@@ -796,6 +804,14 @@
                 "id": "ff000282-5aa3-446e-834e-8aeac4631144",
                 "resourcePath": "objects\\O_WallBlocker\\O_WallBlocker.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "dd9600ab-1093-482a-acd6-981132c0cc5b",
+            "Value": {
+                "id": "6e34ebab-e717-4f3b-be44-b93bfc5a203d",
+                "resourcePath": "rooms\\First_Scene\\First_Scene.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
