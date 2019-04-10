@@ -9,7 +9,11 @@
         "bc895b7a-21af-43f6-9102-4d53644de594",
         "b9ef8fbd-9a75-4e29-9ce1-d56185a8075e",
         "9112daff-6d1a-4e18-9241-6cdc0d688ed4",
-        "62761c53-103a-4103-bd7a-96ac6eb151bf"
+        "62761c53-103a-4103-bd7a-96ac6eb151bf",
+        "72fb844e-5dba-4f0c-9e27-a5de7aeaa05d",
+        "6e81ef17-058d-4d28-9fa7-9cd409877549",
+        "a0185742-9a1b-4e48-84fc-b30345ce791a",
+        "7e8e2b98-ca48-43de-beaa-0a805c007967"
     ],
     "filterType": "GMObject",
     "folderName": "Environments",
