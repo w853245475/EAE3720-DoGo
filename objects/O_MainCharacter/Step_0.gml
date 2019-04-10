@@ -1,5 +1,25 @@
 /// @description Moves
 // You can write your code in this editor
+if((O_GameManager.dayCount == 1) && startTalk){
+	myTextbox = instance_create_layer(100, 500, "Text", O_TextBox);
+	myTextbox.text = myText;
+	myTextbox.hasOption = false;
+	myTextbox.creator = self;
+	myTextbox.name = myName;
+	startTalk = false;
+}
+
+
+if(room != Living_Room)
+{
+	x = 320;
+	y = 640;
+	self.visible = 0;
+}
+
+else
+{
+self.visible = 1;
 
 
 inputLeft = keyboard_check(vk_left);
@@ -13,7 +33,8 @@ if(speed == 0 && !(inputUp) && !(inputDown) && !(keyboard_check(ord("W"))) && !(
 	image_index = 0;
 }
 
-
+if(!talking)
+{
 if(inputLeft || keyboard_check(ord("A"))){
 	upDownMoving = false;
 	sprite_index =S_MainCharacter_Left;
@@ -82,4 +103,6 @@ else if(inputDown) ||  keyboard_check(ord("S"))
 		y += horizontalSpeed;
 	}
 	//speed = horizontalSpeed; 
+}
+}
 }

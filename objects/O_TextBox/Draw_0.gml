@@ -19,3 +19,6 @@ draw_text(x+boxWidth/2, y+yBuffer, name);
 //Draw Text;
 draw_set_halign(fa_left);
 draw_text_ext(x+xBuffer, y+stringHeight+3 * yBuffer, textPart, stringHeight, boxWidth);
+
+option1 = noone;
+option2 = noone;

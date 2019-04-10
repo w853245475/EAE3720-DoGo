@@ -7,16 +7,35 @@ switch(int_state){
         //Take poker chips for this round (We win 20 chips if we win the round), but bet 10 every round
         case 0:
         if (alarm[0] == -1){
-            if (int_round != 3){//Keep betting if the game is less than 3 rounds   
+			if(int_chips <= 0){
+				if (noMoneybox == noone)
+				{
+					noMoneybox = instance_create_layer(100, 500, "Text", O_TextBox);
+					noMoneybox.text = text;
+					noMoneybox.creator = self;
+					noMoneybox.name = name;
+				}
+				
+				score = int_chips;									
+				int_state = 4;
+				break;
+			}
+			
+			
+            if (int_round != 3){//Keep betting if the game is less than 3 rounds  
+
                 int_round ++;
                 int_chips -= 10;//Take poker chips
                 int_subState ++;//Move onto next substate
             }else{
-				O_GameManager.Money = int_chips;
+				O_GameManager.beforeGamb = false;
+				score = int_chips;
                 instance_create(room_width / 2, room_height / 2 + 15, obj_Finished);//Create the exclaimation 'You Lose!' in the center
                 instance_destroy();//Destroy self
 				
-				room_goto(1);
+				//room_goto(Shop_Room);
+				
+				O_Transition.state = "CASINO TO SHOP";
             }
         }
         break;
@@ -293,6 +312,20 @@ switch(int_state){
         break;
     }
     break;
+	
+	//Switch to the no money state:
+	case 4:
+	if (alarm[0] == -1){
+		if (!instance_exists(noMoneybox))
+		{
+			O_GameManager.beforeGamb = false;
+			O_GameManager.state = "NO MONEY END";	
+			
+			instance_destroy();
+			room_goto(1);
+		}
+	}
+	
 }
 
     

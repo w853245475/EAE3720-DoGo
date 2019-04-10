@@ -11,3 +11,14 @@ charCount = 0;
 
 name = noone;
 
+isPrinting = false;
+
+hasOption = true;
+
+options[0] = "Agree";
+
+option1 = noone;
+
+option_out = false;
+
+creator = noone;
