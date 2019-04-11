@@ -15,17 +15,15 @@ switch(int_state){
 					noMoneybox.creator = self;
 					noMoneybox.name = name;
 				}
-				
 				score = int_chips;									
 				int_state = 4;
 				break;
 			}
 			
-			
             if (int_round != 3){//Keep betting if the game is less than 3 rounds  
 
                 int_round ++;
-                int_chips -= 10;//Take poker chips
+                int_chips -= global.bet;//Take poker chips
                 int_subState ++;//Move onto next substate
             }else{
 				O_GameManager.beforeGamb = false;
@@ -34,7 +32,6 @@ switch(int_state){
                 instance_destroy();//Destroy self
 				
 				//room_goto(Shop_Room);
-				
 				O_Transition.state = "CASINO TO SHOP";
             }
         }
@@ -47,7 +44,7 @@ switch(int_state){
             switch(a){
                 case 0:
                 //My card
-                with(instance_create(room_width / 2 - 35, room_height - 100, obj_card)){//Create the card
+                with(instance_create(room_width / 2 - 35, room_height, obj_card)){//Create the card
                     int_team = 0;//Whose card is this? The dealers or mine?
                     int_type = global.list_deck[| 0];//This is the type of card
                     depth = other.int_depth;//Make the depth the same as our int_depth variable
@@ -58,18 +55,19 @@ switch(int_state){
                 break;
                 case 1:
                 //Dealer card
-                with(instance_create(room_width / 2 - 35, 150, obj_card)){
+                with(instance_create(room_width / 2 - 35, 325, obj_card)){
                     int_team = 1;
                     int_type = global.list_deck[| 0];
                     depth = other.int_depth;
                     image_index = int_type;
                     ds_list_delete(global.list_deck, 0);
+					show_debug_message("Have");
                 }
                 alarm[0] = 20;
                 break;
                 case 2:
                 //Dealer's face down card
-                with(instance_create(room_width / 2 - 35 + 80, 150, obj_card)){
+                with(instance_create(room_width / 2 - 35 + 80, 325, obj_card)){
                     int_team = 1;//The team I am on. 0 for player and 1 for dealer
                     int_type = global.list_deck[| 0];//This is the value of the card at the top of the list
                     depth = other.int_depth;//Make the depth higher than the card below it
@@ -150,7 +148,7 @@ switch(int_state){
         //Send out a card to the player
         case 0:
         if (alarm[0] == -1){
-            with(instance_create(room_width / 2 - 35 + int_playerXOffset, 150, obj_card)){//Create card to send down to the player
+            with(instance_create(room_width / 2 - 35 + int_playerXOffset, 325, obj_card)){//Create card to send down to the player
                 int_team = 0;
                 int_type = global.list_deck[| 0];
                 depth = other.int_depth;
@@ -208,6 +206,7 @@ switch(int_state){
             int_playerXOffset = 25;
             int_subState = 0;
             int_state = 0;
+			global.bet = 10;
         }
         break;
     }
@@ -254,7 +253,7 @@ switch(int_state){
         if (alarm[0] == -1){            
             if (int_dealerScore < int_playerScore){//See if my score is less than the players score
                 if (int_dealerScore < 20){//If so, check to see if it is less than 17, if so go ahead anc create another card
-                    with(instance_create(room_width / 2 - 35 + 80 + int_dealerXOffset, 150, obj_card)){
+                    with(instance_create(room_width / 2 - 35 + 80 + int_dealerXOffset, 325, obj_card)){
                         int_team = 1;//The team I am on. 0 for player and 1 for dealer
                         int_type = global.list_deck[| 0];//This is the value of the card at the top of the list
                         depth = other.int_depth;//Make the depth higher than the card below it
@@ -269,7 +268,7 @@ switch(int_state){
                     with(instance_create(room_width / 2, room_height / 2 + 15, obj_exclaim)){//Create the exclaimation 'YOU WIN!' in the center of the screen
                         image_index = 3;
                     }
-                    int_chips += 20;//Add 20 chips to our winnings (We bet 10 with every hand)
+                    int_chips += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
                 }
             }else{
                 if (int_dealerScore <= 21){
@@ -280,7 +279,7 @@ switch(int_state){
                     with(instance_create(room_width / 2, room_height / 2 + 15, obj_exclaim)){//Create the exclaimation 'YOU WIN!' in the center of the screen
                         image_index = 3;
                     }
-                    int_chips += 20;//Add 20 chips to our winnings (We bet 10 with every hand)
+                    int_chips += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
                 }
             }
             int_subState ++;//Move onto the next state
@@ -323,9 +322,11 @@ switch(int_state){
 			
 			instance_destroy();
 			room_goto(1);
+			break;
 		}
+		break;
 	}
-	
+	break;
 }
 
     

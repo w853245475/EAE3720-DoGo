@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0aa5ebe5-e15b-4e91-8843-2c6257c42ae9",
+            "Value": {
+                "id": "fcf2087d-df06-4558-a91d-e1465b2f2c84",
+                "resourcePath": "sprites\\S_IncreaseBet\\S_IncreaseBet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f8bf516-c90d-4539-9b0d-b3b1afc08a47",
             "Value": {
                 "id": "b3c158bd-5903-4f86-830c-4b508b00191b",
@@ -116,6 +124,14 @@
                 "id": "39305e11-071e-44ff-aa80-ee3a832c2a17",
                 "resourcePath": "objects\\O_DogDealer\\O_DogDealer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1a662611-135a-4c68-8c42-41a887613392",
+            "Value": {
+                "id": "ad78ffd6-1c98-4f82-8787-46f8d09eee29",
+                "resourcePath": "sprites\\S_DecreaseBet\\S_DecreaseBet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "44d433f5-b3ec-42c7-9b9e-8c565a79a05a",
+            "Value": {
+                "id": "be53b1b0-2e1c-4a82-bb0f-3d1c0c5aaa0f",
+                "resourcePath": "objects\\O_AllIn\\O_AllIn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "48016673-5160-41ab-8342-b73b2eb2e4fc",
             "Value": {
                 "id": "4485ba24-d2da-4663-9ea4-95580e952aee",
@@ -327,6 +351,22 @@
             }
         },
         {
+            "Key": "68a88c15-1202-4ba0-85cb-e2089a2d1676",
+            "Value": {
+                "id": "28ff4759-204a-43a6-a66f-236d9152df81",
+                "resourcePath": "objects\\O_DecreaseBet\\O_DecreaseBet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "69751cd8-513a-4c76-b9f7-4e9c290d8840",
+            "Value": {
+                "id": "fffcd533-6a0a-427e-9dd7-5d2a8140a8ab",
+                "resourcePath": "objects\\O_IncreaseBet\\O_IncreaseBet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6aa8a70b-a09a-475f-882c-c75d3f8bcd93",
             "Value": {
                 "id": "0a78e344-6970-40cd-891c-220ef875e8a9",
@@ -391,6 +431,14 @@
             }
         },
         {
+            "Key": "7c151504-156a-4ecf-aeb7-4d2f33360cf0",
+            "Value": {
+                "id": "d2367ab6-5b7c-4259-a6b6-f95caad1e356",
+                "resourcePath": "objects\\O_BetController\\O_BetController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7d5b4ea0-ed76-4fcd-b1cb-4747d2cb80bf",
             "Value": {
                 "id": "7795558a-0dd7-4852-87c3-f63dbdbc8fc5",
@@ -403,6 +451,14 @@
             "Value": {
                 "id": "3ce39a9e-aee2-4b39-8176-f2e80a33c05f",
                 "resourcePath": "objects\\O_sofa2\\O_sofa2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7f6a50fb-8402-4e2d-b910-d4af220a04bb",
+            "Value": {
+                "id": "7e072723-ed7f-4d9d-8858-a3e136b17043",
+                "resourcePath": "objects\\O_BetButton\\O_BetButton.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -452,6 +508,14 @@
                 "id": "31a1d1a7-643e-4020-90b6-7bb95efe3460",
                 "resourcePath": "objects\\obj_youLose\\obj_youLose.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8cec02d0-1d89-48a0-91c7-26d704cd15bc",
+            "Value": {
+                "id": "ebdc31a7-fe56-463d-b055-565203a4d29a",
+                "resourcePath": "sprites\\ALLIn\\ALLIn.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
