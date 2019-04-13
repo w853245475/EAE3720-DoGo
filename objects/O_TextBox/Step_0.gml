@@ -11,11 +11,17 @@ if(keyboard_check_pressed(vk_space)){
 				//option_out = true;
 
 			}
-			
 			else{
-		
+				/*
 				instance_destroy();	
-				creator.alarm[1] = 1;
+				creator.alarm[1] = 10;
+				
+				alarm[1] = 1;
+				*/
+				
+				creator.alarm[1] = 10;
+
+				instance_destroy();
 			}
 	}
 	
@@ -28,9 +34,17 @@ if(keyboard_check_pressed(vk_space)){
 	}
 	else
 	{
-		instance_destroy();	
+		
+		//instance_destroy();	
 		//creator.myTextbox = noone;
+		//creator.alarm[1] = 10;
+		//alarm[1] = 1;
+		
+		//O_MainCharacter.alarm[1] = 1;
 		creator.alarm[1] = 10;
+
+		instance_destroy();
+		
 	}
 	
 }

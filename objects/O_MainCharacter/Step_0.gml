@@ -1,7 +1,7 @@
 /// @description Moves
 // You can write your code in this editor
 if((O_GameManager.dayCount == 1) && startTalk){
-	myTextbox = instance_create_layer(100, 500, "Text", O_TextBox);
+	myTextbox = instance_create_layer(x-425, 500, "Text", O_TextBox);
 	myTextbox.text = myText;
 	myTextbox.hasOption = false;
 	myTextbox.creator = self;

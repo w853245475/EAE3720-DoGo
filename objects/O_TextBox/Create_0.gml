@@ -1,4 +1,4 @@
-
+O_MainCharacter.alarm[0] = 1;
 page = 0;
 
 xBuffer = 10;

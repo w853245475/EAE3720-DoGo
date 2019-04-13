@@ -19,6 +19,7 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 				switch(O_GameManager.dayCount){
 					case 1:
 						myTextbox.text = myText;
+						myTextbox.hasOption = false;
 						break;
 		
 					case 2:
