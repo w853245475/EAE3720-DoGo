@@ -10,22 +10,42 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 	
 	if(keyboard_check(vk_space))
 	{	
-		O_MainCharacter.alarm[0] = 1;
+		//O_MainCharacter.alarm[0] = 1;
 		if (myTextbox == noone)
 		{ 
 				
 				myTextbox = instance_create_layer(100, 500, "Text", O_TextBox);
-				
-				switch(O_GameManager.dayCount + !(O_GameManager.beforeGamb)){
+				show_debug_message(O_GameManager.dayCount);
+				switch(O_GameManager.dayCount){
 						case 1:
-							myTextbox.text = myText;
-						//myTextbox.hasOption = false;
+							switch(O_GameManager.beforeGamb){
+								case 0:
+															
+									myTextbox.text = myText_Day1_After;
+									//myTextbox.hasOption = false;
+									break;
+								case 1:
+									myTextbox.text = myText_Day1_Before;			
+									break;
+									
+							}
+							
 							break;
 							
 						case 2:
-							myTextbox.text = myText_Day1_After;
+							switch(O_GameManager.beforeGamb){
+								case 0:
+															
+									myTextbox.text = myText_Day1_After;
+									//myTextbox.hasOption = false;
+									break;
+								case 1:
+									myTextbox.text = myText_Day2_Before;			
+									break;
+									
+							}		
+							
 							break;
-		
 						case 3:
 							myTextbox.text = myText2;
 							break;
