@@ -10,7 +10,7 @@ repeat(buttons)
 	{
 		draw_set_color(c_red);	
 	}
-	draw_text(menu_x, menu_y + button_h * i, button[i]);
+	draw_text(menu_x, menu_y + button_h * 2* i, button[i]);
 	draw_set_color(c_white);
 	i++;	
 	

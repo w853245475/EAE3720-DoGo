@@ -49,8 +49,13 @@ switch (state)
 			if (alpha >=1){
 				sleep = false;
 				O_GameManager.beforeGamb = true;
-				O_GameManager.dayCount ++ ;
-				state = "ROOM EXIT TRANSITION";	
+				O_GameManager.dayCount++ ;
+				
+				//alarm[0] = 60;
+				room_goto(Black_SelfTelling);
+				//state = "ROOM EXIT TRANSITION";
+				//state = "IN GAME";
+				break;
 			}
 		}
 		break;

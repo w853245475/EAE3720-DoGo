@@ -6,8 +6,7 @@ if(keyboard_check_pressed(vk_space)){
 	{
 			if(hasOption)
 			{
-				option1 = instance_create_layer(x+boxWidth/2, y-100, "Text", O_OptionsWife);
-				option1.creator = self;
+				creator.alarm[0] = 1;
 				//option_out = true;
 
 			}

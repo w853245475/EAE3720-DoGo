@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0d7dc93a-47a8-4e50-9d43-5f1599cbbc6c",
+            "Value": {
+                "id": "d785c300-a773-4474-b407-7c70f2c6e533",
+                "resourcePath": "objects\\O_BlackRoom\\O_BlackRoom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0f8bf516-c90d-4539-9b0d-b3b1afc08a47",
             "Value": {
                 "id": "b3c158bd-5903-4f86-830c-4b508b00191b",
@@ -292,6 +300,14 @@
                 "id": "081b4f25-fd10-428a-823a-6c573eefae96",
                 "resourcePath": "views\\511a3e70-3d07-4e82-b465-7d5e074971bc.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "52081792-859a-4dd4-917c-4ec8d725f1dd",
+            "Value": {
+                "id": "c9adca0b-0ae0-4189-84b2-a88a08f10710",
+                "resourcePath": "rooms\\Black_SelfTelling\\Black_SelfTelling.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

@@ -7,6 +7,11 @@ myText[2] = "But basically the only way you earns money is from gambling, (your 
 myText[3] = "Step Out The Door To Start Your Gambling, currently you can earn scores from playing balckjack game. Good luck!";
 
 myText2[0] = "Second Day!";
+
+myText_Day1_After[0] = "Welcome Back! You Made It!";
+myText_Day1_After[1] = "Now Logically You Can Not Go Outside, You Could End The Day By Going To The Bed(The Larger One).";
+myText_Day1_After[2] = "I Will Meet You On Tommorw Morning.";
+
 	
 hasOption = true;
 options[0] = "Agree";
@@ -14,3 +19,13 @@ options[1] = "Disagree";
 
 //For not getting respawned immediatly
 count = 0;
+
+option1 = noone;
+
+
+
+xBuffer = 10;
+yBuffer = 10;
+
+boxWidth = sprite_get_width(S_TextBox) - 2*xBuffer;
+

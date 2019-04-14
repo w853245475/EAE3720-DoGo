@@ -1,5 +1,9 @@
 /// @description Moves
 // You can write your code in this editor
+
+
+
+
 if((O_GameManager.dayCount == 1) && startTalk){
 	myTextbox = instance_create_layer(x-425, 500, "Text", O_TextBox);
 	myTextbox.text = myText;
@@ -10,10 +14,18 @@ if((O_GameManager.dayCount == 1) && startTalk){
 }
 
 
-if(room != Living_Room)
+if(room != Living_Room && !O_GameManager.beforeGamb)
 {
-	x = 320;
-	y = 640;
+	x = 325;
+	y = 550;
+	self.visible = 0;
+}
+
+else if(room != Living_Room && O_GameManager.beforeGamb)
+{
+	x = 1250;
+	y = 485;
+	sprite_index = S_MainCharacter_Down;
 	self.visible = 0;
 }
 

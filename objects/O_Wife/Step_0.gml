@@ -16,15 +16,19 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 				
 				myTextbox = instance_create_layer(100, 500, "Text", O_TextBox);
 				
-				switch(O_GameManager.dayCount){
-					case 1:
-						myTextbox.text = myText;
-						myTextbox.hasOption = false;
-						break;
+				switch(O_GameManager.dayCount + !(O_GameManager.beforeGamb)){
+						case 1:
+							myTextbox.text = myText;
+						//myTextbox.hasOption = false;
+							break;
+							
+						case 2:
+							myTextbox.text = myText_Day1_After;
+							break;
 		
-					case 2:
-						myTextbox.text = myText2;
-						break;
+						case 3:
+							myTextbox.text = myText2;
+							break;
 				}	
 				
 

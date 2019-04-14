@@ -1,0 +1,1 @@
+state = "ROOM EXIT TRANSITION";
