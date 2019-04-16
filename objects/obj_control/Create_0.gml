@@ -51,6 +51,10 @@ int_playerScore = -1;
 //If thi number is greater than -1 we will draw it
 int_dealerScore = -1;
 
+my_AceCard = 0;
+
+dealer_AceCard = 0;
+
 //Text box setting
 noMoneybox = noone;
 name = "Dog Dealer";
