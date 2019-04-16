@@ -1,5 +1,5 @@
 score = 50;
-global.Happiness = 50;
+Happiness = 50;
 
 
 beforeGamb = true;

@@ -22,10 +22,16 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 								case 0:
 															
 									myTextbox.text = myText_Day1_After;
+									total_options = dinner;
+									
+									
 									//myTextbox.hasOption = false;
 									break;
 								case 1:
-									myTextbox.text = myText_Day1_Before;			
+									myTextbox.text = myText_Day1_Before;		
+									
+									total_options = options;
+									
 									break;
 									
 							}
