@@ -16,8 +16,7 @@ if(keyboard_check_pressed(vk_space)){
 				creator.alarm[1] = 10;
 				
 				alarm[1] = 1;
-				*/
-				
+				*/				
 				creator.alarm[1] = 10;
 
 				instance_destroy();

@@ -51,7 +51,8 @@ if(inputLeft || keyboard_check(ord("A"))){
 	upDownMoving = false;
 	sprite_index =S_MainCharacter_Left;
 	if (place_meeting(x-horizontalSpeed, y,  O_WallBlocker) 
-	|| place_meeting(x-horizontalSpeed, y,  O_Wife))
+	|| place_meeting(x-horizontalSpeed, y,  O_Wife)
+	|| place_meeting(x-horizontalSpeed, y,  O_Son))
 	{
 		speed = 0;
 	}
@@ -70,7 +71,8 @@ else if(inputRight) ||  keyboard_check(ord("D"))
 	upDownMoving = false;
 	sprite_index =S_MainCharacter_Right;
 	if (place_meeting(x+horizontalSpeed, y,  O_WallBlocker) 
-	|| place_meeting(x+horizontalSpeed, y,  O_Wife))
+	|| place_meeting(x+horizontalSpeed, y,  O_Wife)
+	|| place_meeting(x+horizontalSpeed, y,  O_Son))
 	{
 		speed = 0;
 	}
@@ -87,7 +89,8 @@ else if(inputUp) ||  keyboard_check(ord("W"))
 	sprite_index =S_MainCharacter_Up;
 	
 	if (place_meeting(x, y-horizontalSpeed,  O_WallBlocker) 
-	|| place_meeting(x, y-horizontalSpeed,  O_Wife))
+	|| place_meeting(x, y-horizontalSpeed,  O_Wife)
+	|| place_meeting(x, y-horizontalSpeed,  O_Son))
 	{			
 		speed= 0;
 	}
@@ -103,7 +106,8 @@ else if(inputDown) ||  keyboard_check(ord("S"))
 {
 	sprite_index =S_MainCharacter_Down;
 	if (place_meeting(x, y+horizontalSpeed,  O_WallBlocker) 
-	|| place_meeting(x, y+horizontalSpeed,  O_Wife))
+	|| place_meeting(x, y+horizontalSpeed,  O_Wife)
+	|| place_meeting(x, y+horizontalSpeed,  O_Son))
 	{			
 		speed= 0;
 	}

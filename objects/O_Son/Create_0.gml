@@ -1,5 +1,5 @@
 myTextbox = noone;
-myName = "Anna";
+myName = "Branson";
 
 myTextbox_After_Option=noone;
 
@@ -23,10 +23,9 @@ myText_Day1_After[3] = "Could You Decided Which Dinner We Could Have?";
 
 talked = false;
 
-myText_Day1_Before[0] = "Oh, Dear................";
-myText_Day1_Before[1] = "I was thought you already leave. Hurry up! You are going to be late for your work!";
-myText_Day1_Before[2] = "......................";
-myText_Day1_Before[3] = "Sorry, but remember you need to work to support the family?";
+myText_Day1_Before[0] = "PapA, wHat is youR \"woRk\"?";
+myText_Day1_Before[1] = "I hAve a classmate, Tomia, he says hIs father is a programmer.....";
+myText_Day1_Before[2] = "he aLways show off to me that his fAther can make big mONey";
 	
 
 myText_Day1_After[0] = "Welcome Back! You Made It!";
@@ -78,12 +77,3 @@ count = 0;
 option1 = noone;
 
 total_options = noone;
-
-
-
-/*
-xBuffer = 10;
-yBuffer = 10;
-
-boxWidth = sprite_get_width(S_TextBox) - 2*xBuffer;
-*/

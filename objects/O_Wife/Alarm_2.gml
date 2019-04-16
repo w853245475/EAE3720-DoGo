@@ -9,12 +9,12 @@ switch(O_GameManager.dayCount){
 	case 1:
 		switch(O_GameManager.beforeGamb){
 			case 0:
-				
 				score -= 30;
 				O_GameManager.Happiness+=10;
 				myTextbox.text = myText_Day1_Dinner_Agree;
 				myTextbox.hasOption = false;
 				myTextbox.page = 0;
+				
 																
 				//myTextbox.hasOption = false;
 				break;
@@ -48,7 +48,7 @@ switch(O_GameManager.dayCount){
 		break;
 }	
 
-
+talked = true;
 
 
 //alarm[1] = 10;
