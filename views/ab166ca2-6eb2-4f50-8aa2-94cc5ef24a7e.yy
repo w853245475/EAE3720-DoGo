@@ -15,7 +15,10 @@
         "4e2f08e8-881c-424e-b6ae-1e36fbdf7bd4",
         "374ebf6f-f353-4687-8540-6a8af2e94d11",
         "e04051b3-8b12-4dd6-be2e-09368216be1a",
-        "1ba546dc-3c73-41a7-82db-7bc5cadd66ff"
+        "1ba546dc-3c73-41a7-82db-7bc5cadd66ff",
+        "84716934-3dae-46ba-a952-b312940c640e",
+        "92abe7bf-ae21-4684-8a10-e420521755f2",
+        "d77d34b5-1073-49cb-95ca-2ff28b5db527"
     ],
     "filterType": "GMSprite",
     "folderName": "Environments",
