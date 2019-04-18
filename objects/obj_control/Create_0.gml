@@ -28,7 +28,7 @@ ds_list_shuffle(global.list_deck);
 int_state = 0;
 
 //What is the number of chips? If we get to 100 chips we win! If we fall to 0 we lose!
-int_chips = 100;
+int_chips = score;
 
 //What round is this?
 int_round = 0;
@@ -50,3 +50,15 @@ int_playerScore = -1;
 
 //If thi number is greater than -1 we will draw it
 int_dealerScore = -1;
+
+my_AceCard = 0;
+
+dealer_AceCard = 0;
+
+//Text box setting
+noMoneybox = noone;
+name = "Dog Dealer";
+text[0] = "Oh, Looks Like You've Ran Out Of Your Money.";
+text[1] = "Maybe You Can Come Back When You Got Some Money";
+
+

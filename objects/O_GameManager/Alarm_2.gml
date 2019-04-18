@@ -1,0 +1,1 @@
+score = obj_control.int_chips;
