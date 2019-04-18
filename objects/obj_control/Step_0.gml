@@ -32,14 +32,17 @@ switch(int_state){
                 instance_destroy();//Destroy self
 				
 				//room_goto(Shop_Room);
-				O_Transition.state = "CASINO TO SHOP";
+				O_Transition.state = "RETURN TO HOME";
             }
         }
         break;
         //Deal out cards
         case 1:
         if (alarm[0] == -1){//Don't create any cards while alarm[0] is bigger than -1 (Which it is by default unless we set it)
-            var a = instance_number(obj_card);
+            
+
+			
+			var a = instance_number(obj_card);
             int_depth --;
             switch(a){
                 case 0:
@@ -85,6 +88,7 @@ switch(int_state){
         }
         break;
     }
+
     break;
     //Analyze player input
     case 1:
@@ -149,6 +153,7 @@ switch(int_state){
     switch(int_subState){
         //Send out a card to the player
         case 0:
+		O_DogDealer.image_index = 0;
         if (alarm[0] == -1){
             with(instance_create(room_width / 2 - 35 + int_playerXOffset, 300, obj_card)){//Create card to send down to the player
                 int_team = 0;
@@ -166,6 +171,7 @@ switch(int_state){
             int_depth --;//Decrease depth so cards appear in front of one another to the player
             int_playerXOffset += 25;//Offset this value so cards fall next to eachother instead of over one another
             int_subState ++;//Go to next sub state
+			O_DogDealer.image_index = 1;
         }
         break;
         //Analyze the player score
@@ -228,6 +234,7 @@ switch(int_state){
     switch(int_subState){
         //Flip the dealer overturned card over
         case 0:
+		O_DogDealer.image_index = 2;
         if (alarm[0] == -1){
             with(obj_card){
                 if (image_index == 52){
@@ -303,6 +310,7 @@ switch(int_state){
             }
             int_subState ++;//Move onto the next state
             alarm[0] = 60;
+			O_DogDealer.image_index = 1;
         }
         break;
         //Wait for the new round
@@ -348,7 +356,7 @@ switch(int_state){
 	break;
 }
 
-    
+//O_DogDealer.image_index = 1;
 
 ///Global.X and Y
 

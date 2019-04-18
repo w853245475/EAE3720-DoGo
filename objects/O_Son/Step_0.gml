@@ -61,7 +61,8 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 									break;
 								case 1:
 									myTextbox.text = myText_Day1_Before;									
-									total_options = options;
+									//total_options = options;
+									myTextbox.hasOption = false;
 									break;
 							}
 							break;

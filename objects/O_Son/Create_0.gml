@@ -48,7 +48,7 @@ myText_Day1_Agree[0] = "Wonderful!, now it's time for you to work, love you!";
 myText_Day1_Disagree[0] = "(Anna Has Become Unhappy)";
 myText_Day1_Disagree[1] = "Oh, Then you'd better find other ways to make some money.";
 
-myText_Day1_Before_Talked[0] = "You should be left already.";
+myText_Day1_Before_Talked[0] = "(I would tell him thAt my pApa is a dEveloper";
 
 myText_Day1_After_Talked[0] = "You should be left already.";
 

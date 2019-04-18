@@ -41,7 +41,7 @@ switch(O_GameManager.dayCount){
 		break;
 }	
 
-
+talked = true;
 /*
 alarm[1] = 10;
 option1 = noone;
