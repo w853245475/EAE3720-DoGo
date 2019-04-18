@@ -110,6 +110,13 @@ switch(int_state){
                 }         
             }
         }
+		//Save the players score as int_playerScore, we are now going to draw it in the draw event                
+		if(my_AceCard != 0){
+			while(a > 21 and my_AceCard > 0){	
+				a -= 10;
+				my_AceCard--;
+			}
+		}
         int_playerScore = a;//This is the player's score
         int_subState ++;
         break;
@@ -187,15 +194,15 @@ switch(int_state){
                     }  
                 }
             }
-            //Save the players score as int_playerScore, we are now going to draw it in the draw event                
-			if(my_AceCard != 0){
-				while(a > 21 and my_AceCard > 0){	
+		    if(my_AceCard != 0){
+				temp = my_AceCard
+				while(a > 21 and temp > 0){	
 					a -= 10;
-					my_AceCard--;
+					temp--;
 				}
 			}
 			int_playerScore = a;
-			if (a <= 21){
+			if (int_playerScore <= 21){
                 int_subState = 0;
                 int_state = 1;//Return to the hit/stand phase
             }else{
@@ -272,7 +279,7 @@ switch(int_state){
         if (alarm[0] == -1){            
             if (int_dealerScore < int_playerScore){//See if my score is less than the players score
                 if (int_dealerScore < 17){//If so, check to see if it is less than 17, if so go ahead anc create another card
-                    with(instance_create(room_width / 2 - 35 + 20 + int_dealerXOffset, 300, obj_card)){
+                    with(instance_create(room_width / 2 - 35 + 15 + int_dealerXOffset, 300, obj_card)){
                         int_team = 1;//The team I am on. 0 for player and 1 for dealer
                         int_type = global.list_deck[| 0];//This is the value of the card at the top of the list
                         depth = other.int_depth;//Make the depth higher than the card below it
