@@ -4,8 +4,9 @@ switch(int_state){
     //Beginning of the round
     case 0:	
     switch(int_subState){
-        //Take poker chips for this round (We win 20 chips if we win the round), but bet 10 every round
+        //Take poker chips for this round (We win 20 chips if we win the round), but bet 10 every round	
         case 0:
+		global.bet = 10;
         if (alarm[0] == -1){
 			if(int_chips <= 0){
 				if (noMoneybox == noone)
@@ -21,7 +22,6 @@ switch(int_state){
 			}
 			
             if (int_round != 3){//Keep betting if the game is less than 3 rounds  
-
                 int_round ++;
                 int_chips -= global.bet;//Take poker chips
                 int_subState ++;//Move onto next substate

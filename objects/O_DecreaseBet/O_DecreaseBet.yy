@@ -5,16 +5,6 @@
     "name": "O_DecreaseBet",
     "eventList": [
         {
-            "id": "74c845ef-ed47-436f-a2d5-d02fc8891372",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 6,
-            "m_owner": "68a88c15-1202-4ba0-85cb-e2089a2d1676"
-        },
-        {
             "id": "4fc649a9-2b76-45e3-abf1-a9998ac1db76",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "68a88c15-1202-4ba0-85cb-e2089a2d1676"
+        },
+        {
+            "id": "9daf3bb9-09f1-473d-8e0b-35499718efa6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "68a88c15-1202-4ba0-85cb-e2089a2d1676"
         }
     ],
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "1a662611-135a-4c68-8c42-41a887613392",
     "visible": true
 }
