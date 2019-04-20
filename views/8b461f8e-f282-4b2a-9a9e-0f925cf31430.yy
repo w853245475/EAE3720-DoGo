@@ -9,7 +9,8 @@
         "26633bb3-f03d-4dc5-9b9e-2455270e878a",
         "afaa04a4-7d8d-4f20-8cda-81d98a0c9261",
         "7d5b4ea0-ed76-4fcd-b1cb-4747d2cb80bf",
-        "a12168ed-00c5-406e-be12-1c22d4e87cca"
+        "a12168ed-00c5-406e-be12-1c22d4e87cca",
+        "758ae0ac-fe0d-4474-9f7e-16ddf8b46f22"
     ],
     "filterType": "GMObject",
     "folderName": "SlotMachine",

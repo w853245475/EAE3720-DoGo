@@ -5,16 +5,6 @@
     "name": "O_IncreaseBet",
     "eventList": [
         {
-            "id": "61ec1ac2-99ed-4071-8a50-8aba0ccfa966",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 6,
-            "m_owner": "69751cd8-513a-4c76-b9f7-4e9c290d8840"
-        },
-        {
             "id": "4b3f08a4-434d-47de-bcb2-ab925e3c7894",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -22,6 +12,16 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
+            "m_owner": "69751cd8-513a-4c76-b9f7-4e9c290d8840"
+        },
+        {
+            "id": "f5635ce6-6748-4a68-a65f-2de1e03a5532",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 4,
+            "eventtype": 6,
             "m_owner": "69751cd8-513a-4c76-b9f7-4e9c290d8840"
         }
     ],
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "0aa5ebe5-e15b-4e91-8843-2c6257c42ae9",
     "visible": true
 }
