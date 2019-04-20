@@ -1,14 +1,14 @@
 {
-    "id": "1a6a9b10-bc68-4b5b-828b-e54bffe4d3d2",
+    "id": "758ae0ac-fe0d-4474-9f7e-16ddf8b46f22",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "O_Slot1",
+    "name": "O_SlotMachine",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "7d5b4ea0-ed76-4fcd-b1cb-4747d2cb80bf",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "d77d34b5-1073-49cb-95ca-2ff28b5db527",
+    "spriteId": "84716934-3dae-46ba-a952-b312940c640e",
     "visible": true
 }

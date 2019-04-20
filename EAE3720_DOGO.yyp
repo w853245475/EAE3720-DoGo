@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "456c25f8-9d5c-4dee-a9a2-8cf0c86309d9",
+            "Value": {
+                "id": "58d8684e-97b9-4ea7-9901-f9503e742659",
+                "resourcePath": "rooms\\SlotMachine_Room\\SlotMachine_Room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "48016673-5160-41ab-8342-b73b2eb2e4fc",
             "Value": {
                 "id": "4485ba24-d2da-4663-9ea4-95580e952aee",
@@ -428,6 +436,14 @@
                 "id": "3e895d04-2a3d-4ace-8acf-a26d3a218991",
                 "resourcePath": "views\\754c25bf-e427-44a9-bdcc-eafd56e102b6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "758ae0ac-fe0d-4474-9f7e-16ddf8b46f22",
+            "Value": {
+                "id": "45ed60c5-1990-452c-b71a-2b067d3b4e56",
+                "resourcePath": "objects\\O_SlotMachine\\O_SlotMachine.yy",
+                "resourceType": "GMObject"
             }
         },
         {
