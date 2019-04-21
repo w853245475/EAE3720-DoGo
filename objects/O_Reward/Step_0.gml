@@ -8,6 +8,7 @@ if(O_Slot1.finishedSpinning and O_Slot2.finishedSpinning and O_Slot3.finishedSpi
 		O_Slot1.finishedSpinning = false;
 		O_Slot2.finishedSpinning = false;
 		O_Slot3.finishedSpinning = false;
+		O_SlotParent.drawReward = true;
 		score += global.bet * 2;
 	}
 	// Player does not win
@@ -16,6 +17,7 @@ if(O_Slot1.finishedSpinning and O_Slot2.finishedSpinning and O_Slot3.finishedSpi
 		O_Slot1.finishedSpinning = false;
 		O_Slot2.finishedSpinning = false;
 		O_Slot3.finishedSpinning = false;
+		O_SlotParent.drawReward = true;
 		playerWins = false;
 	}
 }
