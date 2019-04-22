@@ -21,6 +21,7 @@ myText_Day1_After[2] = "I Will Meet You On Tommorw Morning, But Before That.... 
 myText_Day1_After[3] = "Could You Decided Which Dinner We Could Have?";
 */
 
+
 talked = false;
 
 myText_Day1_Before[0] = "PapA, wHat is youR \"woRk\"?";
@@ -28,11 +29,7 @@ myText_Day1_Before[1] = "I hAve a classmate, Tomia, he says hIs father is a prog
 myText_Day1_Before[2] = "he aLways show off to me that his fAther can make big mONey";
 	
 
-myText_Day1_After[0] = "Welcome Back! You Made It!";
-myText_Day1_After[1] = "Now Logically You Can Not Go Outside, You Could End The Day By Going To The Bed(The Larger One).";
-myText_Day1_After[2] = "I Will Meet You On Tommorw Morning, But Before That.... ";
-myText_Day1_After[3] = "Could You Decided Which Dinner We Could Have?";
-	
+myText_Day1_After[0] = "Welcome back pApa...."
 	
 hasOption = true;
 
@@ -43,30 +40,48 @@ dinner[0] = "Hearty Dinner --- (Costs 30$)";
 dinner[1] = "Simple Fast Food --- (Costs 5$)";
 
 
-myText_Day1_Agree[0] = "Wonderful!, now it's time for you to work, love you!";
+myText_Day1_Before_Talked[0] = "(I would tell him thAt my pApa is a dEveloper)";
+myText_Day_Before_Talked[0] = "See you pApa....";
+myText_Day1_After_Talked[0] = "Have a gOOd night!";
 
-myText_Day1_Disagree[0] = "(Anna Has Become Unhappy)";
-myText_Day1_Disagree[1] = "Oh, Then you'd better find other ways to make some money.";
 
-myText_Day1_Before_Talked[0] = "You should be left already.";
+/* Second Day */
 
-myText_Day1_After_Talked[0] = "You should be left already.";
+myText_Day2_Before[0] = "Good morning pApa";
+	
+myText_Day2_After[0] = "Welcome back pApa...."
+myText_Day2_After[1] = "The Avengers movie is coming recently, can I get a Iron Man model?";
 
-myText_Day1_Dinner_Agree[0] = "Great! Our Son Will Like It!";
-myText_Day1_Dinner_Agree[1] = "As You May Notice, You Can Make Decisions Of Buying Dayily Supplies Or Gifts For Your Families (Us!)";
-myText_Day1_Dinner_Agree[2] = "Please Do Not Consider It Only As A Money Reduction, Your Decisions Affects Our Moods.";
-myText_Day1_Dinner_Agree[3] = "If Our Happiness Gets Too Low, We May Leave You...............";
-myText_Day1_Dinner_Agree[4] = "But We May Also Choose To Leave This Family If You Spent All Of The Money.";
-myText_Day1_Dinner_Agree[5] = "So............................";
-myText_Day1_Dinner_Agree[6] = "Have Fun!";
 
-myText_Day1_Dinner_Disagree[0] = "Okay, As You Wish...................";
-myText_Day1_Dinner_Disagree[1] = "As You May Notice, You Can Make Decisions Of Buying Dayily Supplies Or Gifts For Your Families (Us!)";
-myText_Day1_Dinner_Disagree[2] = "Please Do Not Consider It Only As A Money Reduction, Your Decisions Affects Our Moods.";
-myText_Day1_Dinner_Disagree[3] = "If Our Happiness Gets Too Low, We May Leave You...............";
-myText_Day1_Dinner_Disagree[4] = "But We May Also Choose To Leave This Family If You Spent All Of The Money.";
-myText_Day1_Dinner_Disagree[5] = "So............................";
-myText_Day1_Dinner_Disagree[6] = "Have Fun!";
+myText_Day2_Dinner_Agree[0] = "You are tHe greatest pApa ever!";
+
+myText_Day2_Dinner_Disagree[0] = "Okay fine...........";
+
+
+myText_Day_Before_unhappy[0] = "I think I Am starting to feel what hUngry is.....";
+
+myText_Day_After_unhappy[0] = "(Sigh..............)";
+
+
+
+
+/* Third Day */
+myText_Day3_After[0] = "Tomia has got the newest Iron Man before me........"
+myText_Day3_After[1] = "Can I get tHe Spider Man?";
+
+myText_Day3_Dinner_Agree[0] = "You are tHe greatest pApa ever!";
+
+myText_Day3_Dinner_Disagree[0] = "Okay fine...........";
+
+
+/* Fourth Day */
+myText_Day4_After[0] = "I get it! pApa! You don't like Marvel right?"
+myText_Day4_After[1] = "Then can I also get a Bat Man Model? Please.....";
+
+myText_Day4_Dinner_Agree[0] = "You are tHe greatest pApa ever!";
+
+myText_Day4_Dinner_Disagree[0] = "I hate you :(";
+
 
 
 

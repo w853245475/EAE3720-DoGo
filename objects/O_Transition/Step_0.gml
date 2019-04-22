@@ -15,7 +15,7 @@ switch (state)
 		if (alpha >= 1)
 		{
 			//alpha = 0;
-			room_goto(Casino_Room);
+			room_goto(Casino_Switch_Room);
 			break;
 		}
 		break;
@@ -61,14 +61,14 @@ switch (state)
 		break;
 	}
 	
-	case "CASINO TO SHOP":
+	case "RETURN TO HOME":
 	{
 		alpha += 0.01;
 		
 		if (alpha >= 1)
 		{
 			//alpha = 0;
-			room_goto(Shop_Room);
+			room_goto(Living_Room);
 			break;
 		}
 		break;

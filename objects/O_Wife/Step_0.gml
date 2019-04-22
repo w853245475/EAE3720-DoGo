@@ -29,7 +29,7 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 				myTextbox = instance_create_layer(100, 500, "Text", O_TextBox);
 				
 				
-				if(beforeGamb)
+				if(O_GameManager.beforeGamb)
 				{
 					myTextbox.text = myText_Day1_Before_Talked;	
 					myTextbox.creator = self;
@@ -69,19 +69,97 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 						case 2:
 							switch(O_GameManager.beforeGamb){
 								case 0:
-									myTextbox.text = myText_Day1_After;
+									myTextbox.text = myText_Day2_After;
+									total_options = dinner;
 									//myTextbox.hasOption = false;
 									break;
 								case 1:
-									myTextbox.text = myText_Day2_Before;			
+									myTextbox.text = myText_Day2_Before;
+									total_options = know;
 									break;
 									
 							}		
 							
 							break;
 						case 3:
-							myTextbox.text = myText2;
-							break;
+							switch(O_GameManager.beforeGamb){
+									case 0:
+										myTextbox.text = myText_Day3_After;
+										total_options = options;
+										//myTextbox.hasOption = false;
+										break;
+									case 1:
+										if(O_GameManager.Happiness < 50)
+										{
+											myTextbox.text = myText_Day3_Before_unhappy;
+											myTextbox.hasOption = false;
+											break;
+										}
+									
+									
+										else
+										{
+											myTextbox.text = myText_Day3_Before;
+											myTextbox.hasOption = false;
+											break;
+										}
+								}		
+							
+								break;
+						case 4:
+							switch(O_GameManager.beforeGamb){
+									case 0:
+										myTextbox.text = myText_Day4_After;
+										total_options = dinner;
+										//myTextbox.hasOption = false;
+										break;
+									case 1:
+										if(O_GameManager.Happiness < 50)
+										{
+											myTextbox.text = myText_Day4_Before_unhappy;
+											myTextbox.hasOption = false;
+											break;
+										}
+									
+									
+										else
+										{
+											myTextbox.text = myText_Day4_Before;
+											myTextbox.hasOption = false;
+											break;
+										}
+									
+								}		
+							
+								break;		
+								
+						case 5:
+							switch(O_GameManager.beforeGamb){
+									case 0:
+										myTextbox.text = myText_Day5_After;
+										total_options=dinner
+										//myTextbox.hasOption = false;
+										break;
+									case 1:
+										if(O_GameManager.Happiness < 50)
+										{
+											myTextbox.text = myText_Day5_Before_unhappy;
+											myTextbox.hasOption = false;
+											break;
+										}
+									
+									
+										else
+										{
+											myTextbox.text = myText_Day5_Before;
+											myTextbox.hasOption = false;
+											break;
+										}
+									
+								}		
+							
+								break;
+							
 				}	
 				
 
