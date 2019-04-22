@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "21ff8e88-bf50-4d00-84a6-5e362a008e1f",
+            "Value": {
+                "id": "712cfe48-161e-445c-b489-4d03c6246c42",
+                "resourcePath": "rooms\\Casino_Switch_Room\\Casino_Switch_Room.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "2630b369-6635-47af-bc65-9c1d11e1085a",
             "Value": {
                 "id": "7d6bc5fc-a699-42eb-8e1c-cfad4ad7219c",
@@ -351,6 +359,14 @@
             }
         },
         {
+            "Key": "5e4c3b60-8d2a-415b-9eeb-4870cca7827c",
+            "Value": {
+                "id": "99aaaf64-7de0-4c1f-863f-bcdc7598b045",
+                "resourcePath": "rooms\\DivorceEnding\\DivorceEnding.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "62761c53-103a-4103-bd7a-96ac6eb151bf",
             "Value": {
                 "id": "e1eab3af-e136-4dca-ae0d-13bdd312f570",
@@ -508,6 +524,14 @@
                 "id": "452394ff-4431-4a7f-938f-42044176410d",
                 "resourcePath": "objects\\O_QuitgameButton\\O_QuitgameButton.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "826f0667-b6dc-45c7-8c18-7f22defcddd4",
+            "Value": {
+                "id": "d923c483-dfdd-4d2f-8a3f-e04eaada1cdf",
+                "resourcePath": "rooms\\HappyEnding\\HappyEnding.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -1004,14 +1028,6 @@
                 "id": "ff000282-5aa3-446e-834e-8aeac4631144",
                 "resourcePath": "objects\\O_WallBlocker\\O_WallBlocker.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "dd9600ab-1093-482a-acd6-981132c0cc5b",
-            "Value": {
-                "id": "6e34ebab-e717-4f3b-be44-b93bfc5a203d",
-                "resourcePath": "rooms\\First_Scene\\First_Scene.yy",
-                "resourceType": "GMRoom"
             }
         },
         {

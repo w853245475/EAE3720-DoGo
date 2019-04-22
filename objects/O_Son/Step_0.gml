@@ -31,18 +31,44 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 				
 				if(O_GameManager.beforeGamb)
 				{
-					myTextbox.text = myText_Day1_Before_Talked;	
-					myTextbox.creator = self;
-					myTextbox.name = myName;
-					myTextbox.hasOption = false;
+					if(O_GameManager.dayCount = 1)
+					{
+					
+					
+						myTextbox.text = myText_Day1_Before_Talked;	
+						myTextbox.creator = self;
+						myTextbox.name = myName;
+						myTextbox.hasOption = false;
+					}
+					
+					else
+					{
+						myTextbox.text = myText_Day_Before_Talked;	
+						myTextbox.creator = self;
+						myTextbox.name = myName;
+						myTextbox.hasOption = false;
+					}
 				}
 				
 				else
 				{
-					myTextbox.text = myText_Day1_After_Talked;	
-					myTextbox.creator = self;
-					myTextbox.name = myName;
-					myTextbox.hasOption = false;
+					if(O_GameManager.dayCount = 1)
+					{
+					
+					
+						myTextbox.text = myText_Day1_After_Talked;	
+						myTextbox.creator = self;
+						myTextbox.name = myName;
+						myTextbox.hasOption = false;
+					}
+					
+					else
+					{
+						myTextbox.text = myText_Day1_After_Talked;	
+						myTextbox.creator = self;
+						myTextbox.name = myName;
+						myTextbox.hasOption = false;
+					}
 				}
 			}
 			
@@ -55,7 +81,7 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 							switch(O_GameManager.beforeGamb){
 								case 0:												
 									myTextbox.text = myText_Day1_After;
-									total_options = dinner;
+									myTextbox.hasOption = false;
 									
 									//myTextbox.hasOption = false;
 									break;
@@ -70,18 +96,102 @@ if(place_meeting(x+5, y+5, O_MainCharacter)
 						case 2:
 							switch(O_GameManager.beforeGamb){
 								case 0:
-									myTextbox.text = myText_Day1_After;
+									myTextbox.text = myText_Day2_After;
+									total_options = options;
 									//myTextbox.hasOption = false;
 									break;
 								case 1:
-									myTextbox.text = myText_Day2_Before;			
+									myTextbox.text = myText_Day2_Before;	
+									myTextbox.hasOption = false;
 									break;
 									
 							}		
 							
 							break;
+							
 						case 3:
-							myTextbox.text = myText2;
+							switch(O_GameManager.beforeGamb){
+								case 0:
+
+									myTextbox.text = myText_Day3_After;
+									total_options = options;
+									break;
+	
+								case 1:
+								
+									if (O_GameManager.Happiness < 50)
+									{
+										myTextbox.text = myText_Day_Before_unhappy;									
+										//total_options = options;
+										myTextbox.hasOption = false;
+										break;
+									}
+								
+									else
+									{
+										myTextbox.text = myText_Day2_Before;									
+										//total_options = options;
+										myTextbox.hasOption = false;
+										break;
+									}
+							}
+							break;
+							
+						case 4:
+							switch(O_GameManager.beforeGamb){
+								case 0:
+
+									myTextbox.text = myText_Day4_After;
+									total_options = options;
+									break;
+	
+								case 1:
+								
+									if (O_GameManager.Happiness < 50)
+									{
+										myTextbox.text = myText_Day_Before_unhappy;									
+										//total_options = options;
+										myTextbox.hasOption = false;
+										break;
+									}
+								
+									else
+									{
+										myTextbox.text = myText_Day2_Before;									
+										//total_options = options;
+										myTextbox.hasOption = false;
+										break;
+									}
+							}
+							break;
+							
+						case 5:
+							switch(O_GameManager.beforeGamb){
+								case 0:
+
+									myTextbox.text = myText_Day1_After;
+									myTextbox.hasOption = false;
+									//total_options = options;
+									break;
+	
+								case 1:
+								
+									if (O_GameManager.Happiness < 50)
+									{
+										myTextbox.text = myText_Day_Before_unhappy;									
+										//total_options = options;
+										myTextbox.hasOption = false;
+										break;
+									}
+								
+									else
+									{
+										myTextbox.text = myText_Day2_Before;									
+										//total_options = options;
+										myTextbox.hasOption = false;
+										break;
+									}
+							}
 							break;
 				}	
 				
