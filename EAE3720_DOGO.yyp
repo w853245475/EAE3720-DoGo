@@ -487,14 +487,6 @@
             }
         },
         {
-            "Key": "7c151504-156a-4ecf-aeb7-4d2f33360cf0",
-            "Value": {
-                "id": "d2367ab6-5b7c-4259-a6b6-f95caad1e356",
-                "resourcePath": "objects\\O_BetController\\O_BetController.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "7d5b4ea0-ed76-4fcd-b1cb-4747d2cb80bf",
             "Value": {
                 "id": "7795558a-0dd7-4852-87c3-f63dbdbc8fc5",

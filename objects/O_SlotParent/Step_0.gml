@@ -9,3 +9,6 @@ else
 	O_SlotButton.image_index = 0;
 }
 
+if(count == 6) {
+//	room_goto(2);
+}
