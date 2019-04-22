@@ -1,4 +1,4 @@
-if((!finishedSpinning and !running)) 
+if((!finishedSpinning and !running) && count < 6) 
 {
 	if(score >= global.bet)
 	{
@@ -13,4 +13,9 @@ if((!finishedSpinning and !running))
 	running = true;
 	run_speed = 10 + random(5);
 	count++;
+}
+
+
+if(count == 6) {
+	alarm[1] = 30;
 }

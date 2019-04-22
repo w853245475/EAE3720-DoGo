@@ -9,6 +9,24 @@ else
 	O_SlotButton.image_index = 0;
 }
 
-if(count == 6) {
-//	room_goto(2);
+if(score <= 0)
+{
+	if (noMoneybox == noone)
+	{
+		noMoneybox = instance_create_layer(100, 500, "Text", O_TextBox);
+		noMoneybox.text = text;
+		noMoneybox.creator = self;
+		noMoneybox.name = name;
+		boxTriggered = true;
+	}
+	
+	if(boxTriggered)
+	{
+		if(!instance_exists(noMoneybox))
+		{
+			O_GameManager.state = "NO MONEY END";
+		}
+	}
 }
+
+

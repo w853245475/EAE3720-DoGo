@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 
-
+show_debug_message(talking);
 
 if((O_GameManager.dayCount == 1) && startTalk){
 	myTextbox = instance_create_layer(x-425, 500, "Text", O_TextBox);

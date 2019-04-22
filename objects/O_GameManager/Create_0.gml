@@ -3,7 +3,7 @@ Happiness = 50;
 
 
 beforeGamb = true;
-dayCount = 5; 
+dayCount = 1; 
 state = "IN GAME";
 noMoneyEnding = false;
 

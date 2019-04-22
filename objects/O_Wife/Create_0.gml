@@ -1,3 +1,5 @@
+//audio_play_sound(Home, 30, true);	
+
 myTextbox = noone;
 myName = "Anna";
 

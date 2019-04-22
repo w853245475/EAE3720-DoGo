@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "1667756f-352c-443e-96cc-d80b6b184845",
+            "Value": {
+                "id": "e029a5c1-63fb-4895-82d0-1d59897b9723",
+                "resourcePath": "sounds\\Gamble\\Gamble.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "18a08c13-76d5-4bcc-8a81-0e28029fd6c8",
             "Value": {
                 "id": "51e1c968-87dc-42c6-b019-e598120ac4e7",
@@ -180,6 +188,14 @@
                 "id": "712cfe48-161e-445c-b489-4d03c6246c42",
                 "resourcePath": "rooms\\Casino_Switch_Room\\Casino_Switch_Room.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "25a0110c-13dd-4fe3-9550-bff2937381e9",
+            "Value": {
+                "id": "06f51215-e674-458d-8641-ef615a711544",
+                "resourcePath": "sprites\\S_HappyEnding\\S_HappyEnding.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -719,6 +735,14 @@
             }
         },
         {
+            "Key": "a9ae97f8-0e58-41ed-8f98-0a3e5fbdf2bb",
+            "Value": {
+                "id": "04910fe8-3d20-4eb5-9b19-b0200c683080",
+                "resourcePath": "sprites\\S_Divorce\\S_Divorce.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "aa8d0837-088b-489f-ae83-e47e15bdff00",
             "Value": {
                 "id": "dc5cff19-50cb-4a3a-b8a2-fbbd5d6b1118",
@@ -772,6 +796,14 @@
                 "id": "5095c543-6723-47d0-9381-b96f1c3755b3",
                 "resourcePath": "views\\afd021ad-9534-431f-a08a-c32548aecfe4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b1d358f3-0148-4268-a00d-b90e99f08f5a",
+            "Value": {
+                "id": "d3dc7a8c-663c-42be-a2cc-2f0cdd8d7e78",
+                "resourcePath": "sounds\\eNDING\\eNDING.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1023,11 +1055,27 @@
             }
         },
         {
+            "Key": "dad42465-192f-4fdb-a139-84e7d2d3723b",
+            "Value": {
+                "id": "3769d8fa-7af6-4ad3-a741-1c1513ee2f1c",
+                "resourcePath": "objects\\O_HappyEnding\\O_HappyEnding.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "de18a8a9-1cc4-49e5-922a-3f78b27a6df2",
             "Value": {
                 "id": "9d715a83-ab45-497d-8ace-a20a08b120e8",
                 "resourcePath": "scripts\\resume_game\\resume_game.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "df46f390-2a1b-4c83-a491-3f15a195a1d2",
+            "Value": {
+                "id": "b5a1d4d0-616b-4afb-af1e-d8ba9cc6ebe2",
+                "resourcePath": "sounds\\Home\\Home.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1140,6 +1188,14 @@
                 "id": "a2c7db5f-ef5f-4f5a-8045-9eccecf727d9",
                 "resourcePath": "views\\fde37365-74c4-45b6-8833-1fb442d58696.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fecd91d2-c5fb-43b8-ad3e-be5164982cb1",
+            "Value": {
+                "id": "aac1a53e-4d5b-40cf-8c1f-2a254977b58e",
+                "resourcePath": "objects\\O_Divorce\\O_Divorce.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

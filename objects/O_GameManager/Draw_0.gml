@@ -1,9 +1,10 @@
+/*
 draw_text(100, 200, O_GameManager.state);
 draw_text(100, 150, "beforeGamb:");
 draw_text(200, 150, O_GameManager.beforeGamb);
 draw_text(350, 250, dayCount);
 draw_text(100, 250, "dayCount: ");
-
+*/
 draw_set_halign(fa_left);
 
 if(room == Living_Room)

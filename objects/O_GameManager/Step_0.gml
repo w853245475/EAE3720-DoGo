@@ -1,16 +1,21 @@
 
 
 
+
+
 switch(state){
 	case "IN GAME":
 	{
-		
+		break;
 	}
 	
 	
 	case "NO MONEY END":
 	{
-		noMoneyEnding = true;	
+		room_goto(DivorceEnding);	
+		state = "IN GAME";
+		break;
+		
 	}
 	
 }

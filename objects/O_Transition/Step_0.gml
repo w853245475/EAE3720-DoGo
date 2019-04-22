@@ -69,6 +69,7 @@ switch (state)
 		{
 			//alpha = 0;
 			room_goto(Living_Room);
+			
 			break;
 		}
 		break;
