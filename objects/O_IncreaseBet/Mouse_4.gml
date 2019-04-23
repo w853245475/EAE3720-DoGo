@@ -1,7 +1,7 @@
-if(global.bet < obj_control.int_chips and obj_control.int_chips > 0)
+if(global.bet < score and score > 0)
 {
 	global.bet += 10;
-	obj_control.int_chips -= 10;
+	score -= 10;
 	image_index = 1;
 	image_index = 0;
 }

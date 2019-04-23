@@ -6,7 +6,7 @@
 draw_set_halign(fa_left);
 
 draw_text(430, 40, string_hash_to_newline("Dog Dealer"));
-draw_text(15, 15, string_hash_to_newline("Money: " + string(int_chips)));
+draw_text(15, 15, string_hash_to_newline("Money: " + string(score)));
 draw_text(15, 80, string_hash_to_newline("Round: " + string(int_round)));
 
 //Draw the players score if it is above -1

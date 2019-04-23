@@ -9,7 +9,7 @@ else
 	O_SlotButton.image_index = 0;
 }
 
-if(score <= 0)
+if(score <= 0 && finishedSpinning && O_Reward.playerWins == false)
 {
 	if (noMoneybox == noone)
 	{

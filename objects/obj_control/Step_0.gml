@@ -8,7 +8,7 @@ switch(int_state){
         case 0:
 		global.bet = 10;
         if (alarm[0] == -1){
-			if(int_chips <= 0){
+			if(score <= 0){
 				if (noMoneybox == noone)
 				{
 					noMoneybox = instance_create_layer(100, 500, "Text", O_TextBox);
@@ -16,18 +16,18 @@ switch(int_state){
 					noMoneybox.creator = self;
 					noMoneybox.name = name;
 				}
-				score = int_chips;									
+				//score = int_chips;									
 				int_state = 4;
 				break;
 			}
 			
             if (int_round != 3){//Keep betting if the game is less than 3 rounds  
                 int_round ++;
-                int_chips -= global.bet;//Take poker chips
+                score -= global.bet;//Take poker chips
                 int_subState ++;//Move onto next substate
             }else{
 				O_GameManager.beforeGamb = false;
-				score = int_chips;
+				//score = int_chips;
                 instance_create(room_width / 2, room_height / 2 + 15, obj_Finished);//Create the exclaimation 'You Lose!' in the center
                 instance_destroy();//Destroy self
 				
@@ -301,7 +301,7 @@ switch(int_state){
                     with(instance_create(room_width / 2, room_height / 2 + 15, obj_exclaim)){//Create the exclaimation 'YOU WIN!' in the center of the screen
                         image_index = 3;
                     }
-                    int_chips += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
+                    score += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
                 }
             }else{
                 if (int_dealerScore <= 21){
@@ -312,7 +312,7 @@ switch(int_state){
                     with(instance_create(room_width / 2, room_height / 2 + 15, obj_exclaim)){//Create the exclaimation 'YOU WIN!' in the center of the screen
                         image_index = 3;
                     }
-                    int_chips += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
+                    score += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
                 }
             }
             int_subState ++;//Move onto the next state

@@ -5,6 +5,7 @@ totalImages = 4;
 finishedSpinning = false;
 drawReward = false;
 count = 0;
+global.bet = 10;
 
 //Text box setting
 noMoneybox = noone;
