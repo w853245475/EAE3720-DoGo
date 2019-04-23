@@ -4,3 +4,4 @@ running = false;
 totalImages = 4;
 finishedSpinning = false;
 drawReward = false;
+count = 0;
