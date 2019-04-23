@@ -4,3 +4,4 @@ randomize();
 //Setting that we are NOT currently showing a reward
 playerWins = false;
 global.bet = 10;
+global.chips = score;

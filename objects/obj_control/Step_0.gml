@@ -8,7 +8,7 @@ switch(int_state){
         case 0:
 		global.bet = 10;
         if (alarm[0] == -1){
-			if(score <= 0){
+			if(global.chips <= 0){
 				if (noMoneybox == noone)
 				{
 					noMoneybox = instance_create_layer(100, 500, "Text", O_TextBox);
@@ -16,18 +16,23 @@ switch(int_state){
 					noMoneybox.creator = self;
 					noMoneybox.name = name;
 				}
-				//score = int_chips;									
+				score = global.chips;			
+				
 				int_state = 4;
 				break;
 			}
 			
             if (int_round != 3){//Keep betting if the game is less than 3 rounds  
-                int_round ++;
-                score -= global.bet;//Take poker chips
+                int_round ++;		
+				O_DecreaseBet.showButtons = true;
+				O_IncreaseBet.showButtons = true;
+				O_AllIn.showButtons = true;
+                global.chips -= global.bet;//Take poker chips
                 int_subState ++;//Move onto next substate
+				
             }else{
 				O_GameManager.beforeGamb = false;
-				//score = int_chips;
+				score = global.chips;
                 instance_create(room_width / 2, room_height / 2 + 15, obj_Finished);//Create the exclaimation 'You Lose!' in the center
                 instance_destroy();//Destroy self
 				
@@ -39,9 +44,6 @@ switch(int_state){
         //Deal out cards
         case 1:
         if (alarm[0] == -1){//Don't create any cards while alarm[0] is bigger than -1 (Which it is by default unless we set it)
-            
-
-			
 			var a = instance_number(obj_card);
             int_depth --;
             switch(a){
@@ -157,9 +159,12 @@ switch(int_state){
     break;
     //The player clicked the hit button
     case 2:
+	O_DecreaseBet.showButtons = false;
+	O_IncreaseBet.showButtons = false;
+	O_AllIn.showButtons = false;
     switch(int_subState){
         //Send out a card to the player
-        case 0:
+        case 0:	
 		O_DogDealer.image_index = 0;
         if (alarm[0] == -1){
             with(instance_create(room_width / 2 - 35 + int_playerXOffset, 300, obj_card)){//Create card to send down to the player
@@ -238,6 +243,9 @@ switch(int_state){
     break;
     //Player hit the 'STAND' button    
     case 3:
+	O_DecreaseBet.showButtons = false;
+	O_IncreaseBet.showButtons = false;
+	O_AllIn.showButtons = false;
     switch(int_subState){
         //Flip the dealer overturned card over
         case 0:
@@ -301,7 +309,7 @@ switch(int_state){
                     with(instance_create(room_width / 2, room_height / 2 + 15, obj_exclaim)){//Create the exclaimation 'YOU WIN!' in the center of the screen
                         image_index = 3;
                     }
-                    score += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
+                    global.chips += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
                 }
             }else{
                 if (int_dealerScore <= 21){
@@ -312,7 +320,7 @@ switch(int_state){
                     with(instance_create(room_width / 2, room_height / 2 + 15, obj_exclaim)){//Create the exclaimation 'YOU WIN!' in the center of the screen
                         image_index = 3;
                     }
-                    score += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
+                    global.chips += global.bet * 2;//Add 20 chips to our winnings (We bet 10 with every hand)
                 }
             }
             int_subState ++;//Move onto the next state
@@ -349,8 +357,10 @@ switch(int_state){
 	//Switch to the no money state:
 	case 4:
 	if (alarm[0] == -1){
-		if (!instance_exists(noMoneybox))
+		show_debug_message("endddd");
+		if (keyboard_check(vk_space) &&noMoneybox.page == 1)
 		{
+			
 			O_GameManager.beforeGamb = false;
 			O_GameManager.state = "NO MONEY END";	
 			

@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "0c4c390e-6a65-43fc-97d6-b4aa8237e424",
+            "Value": {
+                "id": "92105db7-7b14-4e5d-8db5-f8418092b869",
+                "resourcePath": "objects\\O_Chip\\O_Chip.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0d7dc93a-47a8-4e50-9d43-5f1599cbbc6c",
             "Value": {
                 "id": "d785c300-a773-4474-b407-7c70f2c6e533",

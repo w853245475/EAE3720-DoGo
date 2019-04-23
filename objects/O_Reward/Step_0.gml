@@ -12,15 +12,18 @@ if(O_Slot1.finishedSpinning and O_Slot2.finishedSpinning and O_Slot3.finishedSpi
 			case 0:
 			score += global.bet * 3;
 			playerWins = true;
+			global.bet = 10;
 			break;
 			case 2:
 			score += global.bet * 4;
+			global.bet = 10;
 			playerWins = true;
 			break;
 			case 4:
 			if(score >= global.bet)
 			{
 				score -= global.bet;
+				global.bet = 10;
 			}
 			else 
 			{
@@ -30,6 +33,7 @@ if(O_Slot1.finishedSpinning and O_Slot2.finishedSpinning and O_Slot3.finishedSpi
 			break;
 			case 6:
 			score += global.bet * 5;
+			global.bet = 10;
 			playerWins = true;
 			break;
 			

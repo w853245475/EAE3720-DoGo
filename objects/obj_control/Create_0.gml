@@ -28,7 +28,7 @@ ds_list_shuffle(global.list_deck);
 int_state = 0;
 
 //What is the number of chips? If we get to 100 chips we win! If we fall to 0 we lose!
-int_chips = score;
+global.chips = score;
 
 //What round is this?
 int_round = 0;

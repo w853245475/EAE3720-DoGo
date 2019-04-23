@@ -6,6 +6,9 @@ finishedSpinning = false;
 drawReward = false;
 count = 0;
 global.bet = 10;
+O_DecreaseBet.showButtons = true;
+O_IncreaseBet.showButtons = true;
+O_AllIn.showButtons = true;
 
 //Text box setting
 noMoneybox = noone;
