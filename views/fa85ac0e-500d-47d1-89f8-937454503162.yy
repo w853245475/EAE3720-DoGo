@@ -10,7 +10,8 @@
         "68a88c15-1202-4ba0-85cb-e2089a2d1676",
         "69751cd8-513a-4c76-b9f7-4e9c290d8840",
         "44d433f5-b3ec-42c7-9b9e-8c565a79a05a",
-        "7f6a50fb-8402-4e2d-b910-d4af220a04bb"
+        "7f6a50fb-8402-4e2d-b910-d4af220a04bb",
+        "c1a0f463-f8b1-44a5-8c0a-0ecf7ec37df0"
     ],
     "filterType": "GMObject",
     "folderName": "Casino",
